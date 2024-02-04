@@ -127,5 +127,25 @@ pre, code {
     cursor: pointer;
 }
 
+#checklistContainer label {
+    font-family: 'Helvetica Neue', sans-serif; /* Use a modern sans-serif font */
+    font-size: 20px; /* Set a larger font size for emphasis */
+    color: #000000; /* Use a bold color for emphasis */
+    margin-bottom: 12px; /* A bit more spacing between labels */
+    align-items: center;
+    transition: color 0.3s, text-shadow 0.3s; /* Add transitions for a smoother effect */
+}
+
+#checklistContainer input[type="radio"] {
+    margin-right: 10px; /* Adjust the spacing between radio button and label */
+}
+
+#checklistContainer label:hover {
+    color: #000000; /* Darken the text color on hover for interaction */
+    text-shadow: 1px 1px 2px rgb(73, 75, 73); /* Add a subtle text shadow on hover */
+}
+
+
+
 
 
