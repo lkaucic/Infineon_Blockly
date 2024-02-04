@@ -1,6 +1,22 @@
 {
   "SPUSBDataType" : [
     {
+      "_items" : [
+        {
+          "_name" : "iPhone",
+          "bcd_device" : "14.03",
+          "bus_power" : "500",
+          "bus_power_used" : "500",
+          "device_speed" : "high_speed",
+          "extra_current_used" : "1900",
+          "location_id" : "0x01100000 / 1",
+          "manufacturer" : "Apple Inc.",
+          "product_id" : "0x12a8",
+          "serial_num" : "000081100010449601F8401E",
+          "sleep_current" : "2400",
+          "vendor_id" : "apple_vendor_id"
+        }
+      ],
       "_name" : "USB31Bus",
       "host_controller" : "AppleT8112USBXHCI"
     },

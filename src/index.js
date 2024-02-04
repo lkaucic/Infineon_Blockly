@@ -16,9 +16,16 @@ Blockly.common.defineBlocks(blocks);
 
 
 // Set up UI elements and inject Blockly
+var devices = []
+var selected_device = "default"
 const codeDiv = document.getElementById('generatedCode').firstChild;
 const devicesButton = document.getElementById('outputPane').appendChild(document.getElementById('devicesButton'));
 const buildButton = document.getElementById('outputPane').appendChild(document.getElementById('buildButton'));
+
+const modal = document.getElementById('myModal');
+const modalDevices = document.getElementById('checklistContainer')
+
+const closeModalButton = document.getElementById('closeModalButton');
 //eneratedCode.appendChild(buildButton);
 const blocklyDiv = document.getElementById('blocklyDiv');
 const ws = Blockly.inject(blocklyDiv, {
@@ -27,6 +34,7 @@ const ws = Blockly.inject(blocklyDiv, {
   trashcan: true,
   scrollbars: true
 });
+
 
 // This function resets the code and output divs, shows the
 // generated code from the workspace, and evals the code.
@@ -84,6 +92,8 @@ ws.addChangeListener((e) => {
 
 devicesButton.addEventListener('click', function(){
 
+    modalDevices.innerHTML = '';
+
     fetch(`http://127.0.0.1:8000/deviceCheck`, {
       method: 'POST',
       headers: {
@@ -94,11 +104,44 @@ devicesButton.addEventListener('click', function(){
     .then(response => response.json())
     .then(data => {
         data = JSON.parse(data.data.replace(/'/g, '"'))
+        devices = data
         console.log(data); // Log the response from the server
+
+      devices.forEach(device => {
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.name = 'deviceRadio';
+        radio.value = device;
+        radio.id = 'radio_' + device;
+
+        const label = document.createElement('label');
+        label.htmlFor = radio.id;
+        label.appendChild(document.createTextNode(device));
+
+        modalDevices.appendChild(radio);
+        modalDevices.appendChild(label);
+        modalDevices.appendChild(document.createElement('br'));
+      })
+
+      modal.style.display = 'block';
+
+      const radioButtons = document.querySelectorAll('input[type="radio"]');
+      radioButtons.forEach(radio => {
+          radio.addEventListener('change', function () {
+              selected_device = radio.value;
+              console.log(selected_device)
+          });
+      });
+
     })
-    .catch(error => {
-        console.error('Error:', error);
-    });
+    // Show the modal
+
+
+});
+
+closeModalButton.addEventListener('click', function () {
+  modal.style.display = 'none';
+  console.log(selected_device)
 });
 
 buildButton.addEventListener('click', function() {
@@ -142,6 +185,12 @@ function saveCCodeToFile(code, fileName) {
 function saveConfigurationCodeToFile(code, fileName) {
   saveCCodeToFile(code, fileName);
 }
+
+window.addEventListener('click', function (event) {
+  if (event.target === modal) {
+      modal.style.display = 'none';
+  }
+});
 
 
 

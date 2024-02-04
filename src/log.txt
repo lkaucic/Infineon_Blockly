@@ -8198,3 +8198,682 @@ CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_s
 127.0.0.1 - - [04/Feb/2024 14:29:16] "POST /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [04/Feb/2024 14:32:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [04/Feb/2024 14:32:46] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:40:51] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:40:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:46:21] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:46:22] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:50:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:50:49] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:51:35] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:51:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:06:39] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:06:40] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:06:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:06:45] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:06:48] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:06:50] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:06:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:07:21] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:07:22] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:08:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:08:03] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:08:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:08:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:09:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:09:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:09:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:09:45] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:09:53] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:09:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:14] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:21] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:21] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:23] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:28] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:29] "POST /deviceCheck HTTP/1.1" 200 -
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2758 ms)
+Loading the device db
+Finished loading the device db (656 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+mkdir: MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource: File exists
+127.0.0.1 - - [04/Feb/2024 15:10:32] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:10:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:13:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:13:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:17:38] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:17:38] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:17:53] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:17:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:18:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:18:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:18:59] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:18:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:19:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:19:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:19:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:21:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:21:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:21:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:21:49] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:21:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:22:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:22:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:22:44] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:22:44] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:08] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:46] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:23:46] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:24:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:24:10] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:24:50] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:24:51] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:25:15] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:25:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:25:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:25:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:11] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:11] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:31] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:33] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:35] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:40] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:41] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:44] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:48] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:48] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:26:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:27:43] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:27:44] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:30:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:30:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:30:40] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:30:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:30:57] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:30:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:31:00] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:31:05] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:31:06] "POST /deviceCheck HTTP/1.1" 200 -
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+127.0.0.1 - - [04/Feb/2024 15:31:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:35:39] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:35:39] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:35:41] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:36:04] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:36:04] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:36:05] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:37:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:37:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:37:39] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:40:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:40:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:40:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:40:56] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:40:56] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:12] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:14] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:55] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:41:57] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:42:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:42:19] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:42:23] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:42:24] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:42:24] "POST /deviceCheck HTTP/1.1" 200 -
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO', 'iPhone']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus', 'iPhone']\n", stderr='')
+
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2077 ms)
+Loading the device db
+Finished loading the device db (549 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+mkdir: MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource: File exists
+127.0.0.1 - - [04/Feb/2024 15:42:27] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:45:52] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:45:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:45:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:46:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:46:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:46:06] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:46:06] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:47:35] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:47:35] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:47:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:47:51] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:47:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:47:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:05] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:31] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:33] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:46] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:48:47] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:49:04] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:49:04] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:49:06] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:54:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:54:00] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:54:30] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:54:30] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:54:34] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:54:59] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:54:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:55:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:55:04] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:55:05] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:55:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:55:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:55:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 15:55:20] "POST /deviceCheck HTTP/1.1" 200 -
