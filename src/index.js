@@ -9,21 +9,24 @@ import {blocks} from './blocks/clang_blocks';
 import { clangGenerator } from './generators/clang';
 import {save, load} from './serialization';
 import {toolbox} from './toolbox';
+import {toolbox2} from './toolbox_uno_test'
+import {toolbox3} from './toolbox_due_test'
 import './index.css';
 
 // Register the blocks and generator with Blockly
 Blockly.common.defineBlocks(blocks);
 
-
 // Set up UI elements and inject Blockly
 var devices = []
-var selected_device = "default"
+var selected_device = "Default"
+var sel_toolbox = toolbox;
 const codeDiv = document.getElementById('generatedCode').firstChild;
 const devicesButton = document.getElementById('outputPane').appendChild(document.getElementById('devicesButton'));
 const buildButton = document.getElementById('outputPane').appendChild(document.getElementById('buildButton'));
 
 const modal = document.getElementById('myModal');
 const modalDevices = document.getElementById('checklistContainer')
+const selectButton = document.getElementById('selectButton')
 
 const closeModalButton = document.getElementById('closeModalButton');
 //eneratedCode.appendChild(buildButton);
@@ -69,7 +72,7 @@ runCode();
 // Every time the workspace changes state, save the changes to storage.
 ws.addChangeListener((e) => {
   // UI events are things like scrolling, zooming, etc.
-  ws.updateToolbox(toolbox);
+  ws.updateToolbox(sel_toolbox);
   // No need to save after one of these.
   if (e.isUiEvent) return;
   save(ws);
@@ -139,9 +142,16 @@ devicesButton.addEventListener('click', function(){
 
 });
 
-closeModalButton.addEventListener('click', function () {
+selectButton.addEventListener('click', function () {
   modal.style.display = 'none';
   console.log(selected_device)
+  selected_device === "iPhone" ? sel_toolbox = toolbox : (selected_device === "Arduino Make your UNO" ? sel_toolbox = toolbox2 : sel_toolbox = toolbox3 );
+  ws.clear();
+  ws.updateToolbox(sel_toolbox);
+});
+
+closeModalButton.addEventListener('click', function () {
+  modal.style.display = 'none';
 });
 
 buildButton.addEventListener('click', function() {
