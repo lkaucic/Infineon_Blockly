@@ -9139,3 +9139,5 @@ CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_s
 CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'iPhone', 'USB31Bus']\n", stderr='')
 
 127.0.0.1 - - [04/Feb/2024 17:22:41] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 17:45:24] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 17:45:25] "POST /deviceCheck HTTP/1.1" 200 -

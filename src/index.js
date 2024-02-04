@@ -9,8 +9,8 @@ import {blocks} from './blocks/clang_blocks';
 import { clangGenerator } from './generators/clang';
 import {save, load} from './serialization';
 import {toolbox} from './toolbox';
-import {toolbox2} from './toolbox_uno_test'
-import {toolbox3} from './toolbox_due_test'
+import {toolbox_xmc_47} from './toolbox_xmc_47'
+import {toolbox_xmc_14} from './toolbox_xmc_14'
 import './index.css';
 
 // Register the blocks and generator with Blockly
@@ -145,7 +145,7 @@ devicesButton.addEventListener('click', function(){
 selectButton.addEventListener('click', function () {
   modal.style.display = 'none';
   console.log(selected_device)
-  selected_device === "iPhone" ? sel_toolbox = toolbox : (selected_device === "Arduino Make your UNO" ? sel_toolbox = toolbox2 : sel_toolbox = toolbox3 );
+  selected_device === "iPhone" ? sel_toolbox = toolbox : (selected_device === "Arduino Make your UNO" ? sel_toolbox = toolbox_xmc_47 : sel_toolbox = toolbox_xmc_14 );
   ws.clear();
   ws.updateToolbox(sel_toolbox);
 });

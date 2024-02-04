@@ -1,4 +1,4 @@
-export const toolbox3 = {
+export const toolbox_xmc_14 = {
     'kind': 'flyoutToolbox',
     'contents': [
    
