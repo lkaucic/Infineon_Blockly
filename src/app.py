@@ -11,6 +11,18 @@ log_file_path = './log.txt'
 sys.stdout = open(log_file_path, 'a')
 sys.stderr = open(log_file_path, 'a')
 
+
+@app.route('/deviceCheck', methods=['POST'])
+def device_Check():
+    try:
+        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], capture_output=True, text=True)
+        print(output)
+        print(output.stderr)
+        return jsonify({'success': True, 'data': output.stdout})
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)})
+
 @app.route('/runPythonScript', methods=['POST'])
 def run_python_script():
     try:
@@ -56,6 +68,10 @@ def run_python_script():
     except Exception as e:
         print(f"Error: {str(e)}")
         return jsonify({'success': False, 'error': str(e)})
+    
+
+
+
 
 if __name__ == '__main__':
     app.run(port=8000,debug=True)

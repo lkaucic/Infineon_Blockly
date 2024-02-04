@@ -17,8 +17,9 @@ Blockly.common.defineBlocks(blocks);
 
 // Set up UI elements and inject Blockly
 const codeDiv = document.getElementById('generatedCode').firstChild;
-const uploadButton = document.getElementById('outputPane').appendChild(document.getElementById('uploadButton'));
-//eneratedCode.appendChild(uploadButton);
+const devicesButton = document.getElementById('outputPane').appendChild(document.getElementById('devicesButton'));
+const buildButton = document.getElementById('outputPane').appendChild(document.getElementById('buildButton'));
+//eneratedCode.appendChild(buildButton);
 const blocklyDiv = document.getElementById('blocklyDiv');
 const ws = Blockly.inject(blocklyDiv, {
   toolbox, 
@@ -81,9 +82,26 @@ ws.addChangeListener((e) => {
 });
 
 
+devicesButton.addEventListener('click', function(){
 
+    fetch(`http://127.0.0.1:8000/deviceCheck`, {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json',
+      },
+    })
 
-uploadButton.addEventListener('click', function() {
+    .then(response => response.json())
+    .then(data => {
+        data = JSON.parse(data.data.replace(/'/g, '"'))
+        console.log(data); // Log the response from the server
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
+
+buildButton.addEventListener('click', function() {
   
     const [code,configurationCode] = clangGenerator.workspaceToCode(ws);
 

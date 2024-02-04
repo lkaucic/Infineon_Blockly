@@ -38,7 +38,7 @@ pre, code {
     height: 50%;
 }
 
-#uploadButton {
+#buildButton {
     display: flex;
     padding-bottom: 0%;
     flex-direction: row;
@@ -51,7 +51,25 @@ pre, code {
     color: white;
   }
 
-  #uploadButton:hover {
+  #buildButton:hover {
+    background-color:rgb(43, 104, 43);
+    cursor: pointer;
+  }
+
+  #devicesButton{
+    display: flex;
+    padding-bottom: 0%;
+    flex-direction: row;
+    height: 5%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+  }
+
+  #devicesButton:hover {
     background-color:rgb(43, 104, 43);
     cursor: pointer;
   }

@@ -7175,3 +7175,1026 @@ Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation 
 cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
 mkdir: MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource: File exists
 127.0.0.1 - - [23/Jan/2024 16:41:25] "POST /runPythonScript HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:21:05] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (5 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2541 ms)
+Loading the device db
+Finished loading the device db (1196 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+mkdir: MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource: File exists
+127.0.0.1 - - [04/Feb/2024 13:21:11] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:21:17] "GET /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [04/Feb/2024 13:21:23] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+{'USB31Bus', 'iPhone'}
+
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (0 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2022 ms)
+Loading the device db
+Finished loading the device db (563 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+mkdir: MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource: File exists
+127.0.0.1 - - [04/Feb/2024 13:21:26] "POST /runPythonScript HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+
+###############################################################
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:23:58] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'USB31Bus', 'iPhone'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:26:09] "GET /deviceCheck HTTP/1.1" 405 -
+127.0.0.1 - - [04/Feb/2024 13:26:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [04/Feb/2024 13:26:40] "GET /deviceCheck HTTP/1.1" 405 -
+127.0.0.1 - - [04/Feb/2024 13:26:45] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [04/Feb/2024 13:27:23] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:27:23] "POST /deviceCheck HTTP/1.1" 500 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:29:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:29:03] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [04/Feb/2024 13:31:00] "GET /deviceCheck HTTP/1.1" 405 -
+127.0.0.1 - - [04/Feb/2024 13:31:00] "GET /favicon.ico HTTP/1.1" 404 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'iPhone', 'USB31Bus'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:33:47] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:33:47] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'USB31Bus', 'iPhone'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:34:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:34:58] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'USB31Bus', 'iPhone'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:37:43] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:37:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:37:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:37:49] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'USB31Bus', 'iPhone'}
+
+
+{'iPhone', 'USB31Bus'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:40:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:40:14] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a CompletedProcess.
+127.0.0.1 - - [04/Feb/2024 13:40:56] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a CompletedProcess.
+127.0.0.1 - - [04/Feb/2024 13:41:15] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:41:15] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a CompletedProcess.
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'iPhone', 'USB31Bus'}
+
+
+{'USB31Bus', 'iPhone'}
+
+
+{'iPhone', 'USB31Bus'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:41:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:41:57] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'USB31Bus', 'iPhone'}
+
+
+Error: Object of type CompletedProcess is not JSON serializable
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:42:18] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:42:18] "POST /deviceCheck HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 2139, in make_response
+    rv.status_code = status
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/werkzeug/sansio/response.py", line 151, in status_code
+    self.status = code  # type: ignore
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/werkzeug/sansio/response.py", line 161, in status
+    raise TypeError("Invalid status argument")
+TypeError: Invalid status argument
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'iPhone', 'USB31Bus'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:44:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:44:13] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'USB31Bus', 'iPhone'}
+
+
+Error: 'CompletedProcess' object is not iterable
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:44:51] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:44:51] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+{'iPhone', 'USB31Bus'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:46:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:46:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:46:21] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:46:22] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+output:
+{'iPhone', 'USB31Bus'}
+
+
+output:
+{'USB31Bus', 'iPhone'}
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:50:40] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:50:41] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+output:
+['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']
+
+
+Error: Object of type CompletedProcess is not JSON serializable
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:51:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:51:29] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']
+
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:52:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:52:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:52:20] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:53:22] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:53:22] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'SPUSBDataType': [{'_items': [{'_name': 'iPhone', 'bcd_device': '14.03', 'bus_power': '500', 'bus_power_used': '500', 'device_speed': 'high_speed', 'extra_current_used': '1900', 'location_id': '0x01100000 / 1', 'manufacturer': 'Apple Inc.', 'product_id': '0x12a8', 'serial_num': '000081100010449601F8401E', 'sleep_current': '2400', 'vendor_id': 'apple_vendor_id'}], '_name': 'USB31Bus', 'host_controller': 'AppleT8112USBXHCI'}, {'_name': 'USB31Bus', 'host_controller': 'AppleT8112USBXHCI'}, {'_name': 'USB31Bus', 'host_controller': 'AppleT8112USBXHCI'}]}\n", stderr='')
+
+Error: Object of type CompletedProcess is not JSON serializable
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:54:04] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:54:05] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'SPUSBDataType': [{'_items': [{'_name': 'iPhone', 'bcd_device': '14.03', 'bus_power': '500', 'bus_power_used': '500', 'device_speed': 'high_speed', 'extra_current_used': '1900', 'location_id': '0x01100000 / 1', 'manufacturer': 'Apple Inc.', 'product_id': '0x12a8', 'serial_num': '000081100010449601F8401E', 'sleep_current': '2400', 'vendor_id': 'apple_vendor_id'}], '_name': 'USB31Bus', 'host_controller': 'AppleT8112USBXHCI'}, {'_name': 'USB31Bus', 'host_controller': 'AppleT8112USBXHCI'}, {'_name': 'USB31Bus', 'host_controller': 'AppleT8112USBXHCI'}]}\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 13:54:28] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:54:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:12] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:12] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:42] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:56] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:58:57] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:15] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:41] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:42] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 13:59:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:01:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:01:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:02:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:02:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:02:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:02:19] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:03:28] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:03:28] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:03:43] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:03:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:03:55] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:03:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:04:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:04:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:04:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:04:14] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB31Bus', 'USB31Bus']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:05:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:05:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:05:56] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:05:56] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:07:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:07:45] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:08:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:08:55] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'USB31Bus'}\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'USB31Bus', 'Arduino Make your UNO'}\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'Arduino Make your UNO', 'USB31Bus'}\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'USB31Bus', 'Arduino Make your UNO'}\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:11:55] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:11:55] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=1, stdout='', stderr='Traceback (most recent call last):\n  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 31, in <module>\n    print(jsonify({\'devices\': devices_list}))\nNameError: name \'devices_list\' is not defined\n')
+Traceback (most recent call last):
+  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 31, in <module>
+    print(jsonify({'devices': devices_list}))
+NameError: name 'devices_list' is not defined
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:12:06] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:12:06] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=1, stdout='', stderr='Traceback (most recent call last):\n  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 31, in <module>\n    print(jsonify({\'devices\': devices_dict}))\n  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/json/__init__.py", line 358, in jsonify\n    if current_app.config["JSONIFY_PRETTYPRINT_REGULAR"] or current_app.debug:\n  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/werkzeug/local.py", line 436, in __get__\n    obj = instance._get_current_object()\n  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/werkzeug/local.py", line 565, in _get_current_object\n    return self.__local()  # type: ignore\n  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/globals.py", line 52, in _find_app\n    raise RuntimeError(_app_ctx_err_msg)\nRuntimeError: Working outside of application context.\n\nThis typically means that you attempted to use functionality that needed\nto interface with the current application object in some way. To solve\nthis, set up an application context with app.app_context().  See the\ndocumentation for more information.\n')
+Traceback (most recent call last):
+  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 31, in <module>
+    print(jsonify({'devices': devices_dict}))
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/json/__init__.py", line 358, in jsonify
+    if current_app.config["JSONIFY_PRETTYPRINT_REGULAR"] or current_app.debug:
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/werkzeug/local.py", line 436, in __get__
+    obj = instance._get_current_object()
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/werkzeug/local.py", line 565, in _get_current_object
+    return self.__local()  # type: ignore
+  File "/Users/lkaucic/opt/anaconda3/lib/python3.9/site-packages/flask/globals.py", line 52, in _find_app
+    raise RuntimeError(_app_ctx_err_msg)
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+to interface with the current application object in some way. To solve
+this, set up an application context with app.app_context().  See the
+documentation for more information.
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:14:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:14:04] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'Arduino Make your UNO', 'USB31Bus'}\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:15:08] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:15:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:15:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:15:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:12] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:17] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:16:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:17:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:17:03] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:17:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:17:09] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:17:51] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:17:51] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'Arduino Make your UNO', 'USB31Bus'}\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:20:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:20:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:22:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:22:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:23:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:23:14] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:23:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:23:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:25:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:25:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:25:15] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:25:16] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:25:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:25:36] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="{'USB31Bus', 'Arduino Make your UNO'}\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 14:25:46] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:25:47] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:26:08] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:26:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:26:17] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:26:17] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:26:23] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:26:23] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:28:27] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:28:27] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:29:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:29:03] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:29:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:29:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:29:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:29:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:32:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 14:32:46] "POST /deviceCheck HTTP/1.1" 200 -
