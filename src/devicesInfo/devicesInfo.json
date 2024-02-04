@@ -1,0 +1,72 @@
+{
+  "SPUSBDataType" : [
+    {
+      "_name" : "USB31Bus",
+      "host_controller" : "AppleT8112USBXHCI"
+    },
+    {
+      "_name" : "USB31Bus",
+      "host_controller" : "AppleT8112USBXHCI"
+    },
+    {
+      "_items" : [
+        {
+          "_name" : "USB3.1 Hub",
+          "bcd_device" : "43.20",
+          "bus_power" : "900",
+          "bus_power_used" : "0",
+          "device_speed" : "super_speed",
+          "extra_current_used" : "0",
+          "location_id" : "0x01200000 / 1",
+          "manufacturer" : "Apple Inc.",
+          "product_id" : "0x1018",
+          "serial_num" : "DLC222504CTKD56AE",
+          "vendor_id" : "apple_vendor_id"
+        },
+        {
+          "_items" : [
+            {
+              "_name" : "J-Link",
+              "bcd_device" : "1.00",
+              "bus_power" : "500",
+              "bus_power_used" : "100",
+              "device_speed" : "full_speed",
+              "extra_current_used" : "0",
+              "location_id" : "0x01110000 / 3",
+              "manufacturer" : "SEGGER",
+              "product_id" : "0x0105",
+              "serial_num" : "000591195364",
+              "vendor_id" : "0x1366"
+            },
+            {
+              "_name" : "USB-C Digital AV Multiport Adapter",
+              "bcd_device" : "43.20",
+              "bus_power" : "500",
+              "bus_power_used" : "100",
+              "device_speed" : "full_speed",
+              "extra_current_used" : "0",
+              "location_id" : "0x01120000 / 4",
+              "manufacturer" : "Apple Inc",
+              "product_id" : "0x1463",
+              "serial_num" : "DLC222504CTKD56AE",
+              "vendor_id" : "apple_vendor_id"
+            }
+          ],
+          "_name" : "USB2.0 Hub",
+          "bcd_device" : "43.20",
+          "bus_power" : "500",
+          "bus_power_used" : "0",
+          "device_speed" : "high_speed",
+          "extra_current_used" : "0",
+          "location_id" : "0x01100000 / 2",
+          "manufacturer" : "Apple Inc.",
+          "product_id" : "0x1017",
+          "serial_num" : "DLC222504CTKD56AE",
+          "vendor_id" : "apple_vendor_id"
+        }
+      ],
+      "_name" : "USB31Bus",
+      "host_controller" : "AppleT8112USBXHCI"
+    }
+  ]
+}
