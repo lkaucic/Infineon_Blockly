@@ -1,5 +1,6 @@
 import os
 import json
+from flask import jsonify
 
 output_file = '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/devicesInfo/devicesInfo.json'
 output_file2 = '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/devicesInfo/portsInfo.txt'
@@ -25,6 +26,7 @@ def extract_names(obj):
     return names
 
 all_names = set(extract_names(data))
-print(all_names)
+print(list(all_names))
+
 
 
