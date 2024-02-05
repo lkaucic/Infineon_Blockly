@@ -9488,3 +9488,8 @@ CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_s
 127.0.0.1 - - [05/Feb/2024 10:12:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [05/Feb/2024 10:12:20] "POST /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [05/Feb/2024 10:12:23] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:19:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:19:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:19:55] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:19:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:19:58] "POST /deviceCheck HTTP/1.1" 200 -
