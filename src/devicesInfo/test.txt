@@ -1,0 +1,28 @@
+XMC14
+crw-rw-rw-  1 root  wheel  0x9000007 Feb  5 08:34 /dev/cu.usbmodem0005911999821
+"_name" : "J-Link",
+"bcd_device" : "1.00",
+"bus_power" : "500",
+"bus_power_used" : "100",
+"device_speed" : "full_speed",
+"extra_current_used" : "0",
+"location_id" : "0x00110000 / 4",
+"manufacturer" : "SEGGER",
+"product_id" : "0x0105",
+"serial_num" : "000591199982",
+"vendor_id" : "0x1366"
+
+
+XMC47
+crw-rw-rw-  1 root  wheel  0x9000007 Feb  5 08:36 /dev/cu.usbmodem0005911953641
+"_name" : "J-Link",
+"bcd_device" : "1.00",
+"bus_power" : "500",
+"bus_power_used" : "100",
+"device_speed" : "full_speed",
+"extra_current_used" : "0",
+"location_id" : "0x00110000 / 4",
+"manufacturer" : "SEGGER",
+"product_id" : "0x0105",
+"serial_num" : "000591195364",
+"vendor_id" : "0x1366"

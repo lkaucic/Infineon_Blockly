@@ -9141,3 +9141,203 @@ CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_s
 127.0.0.1 - - [04/Feb/2024 17:22:41] "POST /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [04/Feb/2024 17:45:24] "OPTIONS /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [04/Feb/2024 17:45:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:00:43] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:00:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:00:55] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:00:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:03:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:03:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:16:35] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:16:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:17:08] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:17:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:17:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:17:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:20:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:20:03] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:06] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:21] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:32] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:33] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:41] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 18:26:42] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 19:11:50] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 19:11:51] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'iPhone', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB-C Digital AV Multiport Adapter', 'USB31Bus', 'USB2.0 Hub', 'iPhone', 'USB3.1 Hub']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB2.0 Hub', 'iPhone', 'USB31Bus', 'USB-C Digital AV Multiport Adapter', 'USB3.1 Hub']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['iPhone', 'Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [04/Feb/2024 19:51:39] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 19:51:39] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:37:39] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:37:40] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:37:53] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:37:53] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:37:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:37:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:38:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:38:08] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:38:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:46:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 20:46:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 21:06:51] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [04/Feb/2024 21:06:51] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:04:24] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:04:24] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:04:27] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:07:48] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:07:49] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:08:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:08:10] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:08:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:08:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:12:42] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:12:42] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:12:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:12:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:15:26] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:15:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:17:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:17:03] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:17:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:27:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:27:10] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:27:17] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:27:18] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:27:48] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:27:48] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:28:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:28:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:29:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:29:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:29:33] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:29:34] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:31:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:31:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:31:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:31:19] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:33:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 08:33:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:20:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:20:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:21:23] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:21:23] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB3.1 Hub', 'USB2.0 Hub', 'J-Link', 'USB31Bus', 'USB-C Digital AV Multiport Adapter']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'J-Link', 'USB31Bus', 'USB3.1 Hub', 'USB2.0 Hub', 'USB-C Digital AV Multiport Adapter']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['J-Link', 'Arduino Make your UNO', 'USB3.1 Hub', 'USB2.0 Hub', 'USB31Bus', 'USB-C Digital AV Multiport Adapter']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB-C Digital AV Multiport Adapter', 'J-Link', 'USB31Bus', 'Arduino Make your UNO', 'USB3.1 Hub', 'USB2.0 Hub']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB2.0 Hub', 'USB-C Digital AV Multiport Adapter', 'Arduino Make your UNO', 'USB31Bus', 'J-Link', 'USB3.1 Hub']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB Serial']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB Serial', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB2.0 Hub', 'USB-C Digital AV Multiport Adapter', 'USB31Bus', 'USB3.1 Hub', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB2.0 Hub', 'USB3.1 Hub', 'Arduino Make your UNO', 'USB-C Digital AV Multiport Adapter', 'J-Link', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB3.1 Hub', 'Arduino Make your UNO', 'J-Link', 'USB31Bus', 'USB2.0 Hub', 'USB-C Digital AV Multiport Adapter']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB3.1 Hub', 'J-Link', 'USB-C Digital AV Multiport Adapter', 'Arduino Make your UNO', 'USB31Bus', 'USB2.0 Hub']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['J-Link', 'USB2.0 Hub', 'USB-C Digital AV Multiport Adapter', 'Arduino Make your UNO', 'USB3.1 Hub', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['J-Link', 'USB31Bus', 'USB3.1 Hub', 'USB2.0 Hub', 'USB-C Digital AV Multiport Adapter', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB31Bus', 'USB-C Digital AV Multiport Adapter', 'USB2.0 Hub', 'USB3.1 Hub', 'Arduino Make your UNO']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['J-Link', 'Arduino Make your UNO', 'USB3.1 Hub', 'USB2.0 Hub', 'USB-C Digital AV Multiport Adapter', 'USB31Bus']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['USB3.1 Hub', 'Arduino Make your UNO', 'J-Link', 'USB31Bus', 'USB-C Digital AV Multiport Adapter', 'USB2.0 Hub']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:36:33] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:36:33] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:37:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:37:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:37:28] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:37:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:37:32] "POST /deviceCheck HTTP/1.1" 200 -

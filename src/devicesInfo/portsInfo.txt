@@ -1,3 +1,4 @@
 crw-rw-rw-  1 root  wheel  0x9000003 Feb  3 15:47 /dev/cu.Bluetooth-Incoming-Port
 crw-rw-rw-  1 root  wheel  0x9000001 Feb  3 15:47 /dev/cu.RazerHammerheadTrueWire
-crw-rw-rw-  1 root  wheel  0x9000005 Feb  4 16:44 /dev/cu.usbmodem2101
+
+crw-rw-rw-  1 root  wheel  0x9000005 Feb  5 08:27 /dev/cu.usbmodem2101

@@ -145,7 +145,7 @@ devicesButton.addEventListener('click', function(){
 selectButton.addEventListener('click', function () {
   modal.style.display = 'none';
   console.log(selected_device)
-  selected_device === "iPhone" ? sel_toolbox = toolbox : (selected_device === "Arduino Make your UNO" ? sel_toolbox = toolbox_xmc_47 : sel_toolbox = toolbox_xmc_14 );
+  selected_device === "other" ? sel_toolbox = toolbox : (selected_device === "XMC4700" ? sel_toolbox = toolbox_xmc_47 : sel_toolbox = toolbox_xmc_14 );
   ws.clear();
   ws.updateToolbox(sel_toolbox);
 });
