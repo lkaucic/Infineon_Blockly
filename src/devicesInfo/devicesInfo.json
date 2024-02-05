@@ -26,20 +26,46 @@
     {
       "_items" : [
         {
-          "_name" : "USB3.1 Hub",
-          "bcd_device" : "43.20",
+          "_items" : [
+            {
+              "_name" : "Mass Storage Device",
+              "bcd_device" : "1.00",
+              "bus_power" : "900",
+              "bus_power_used" : "800",
+              "device_speed" : "super_speed",
+              "extra_current_used" : "0",
+              "location_id" : "0x00240000 / 3",
+              "manufacturer" : "Generic",
+              "product_id" : "0x8468",
+              "serial_num" : "058F84688461",
+              "vendor_id" : "0x058f  (Alcor Micro, Corp.)"
+            }
+          ],
+          "_name" : "USB3.0 Hub",
+          "bcd_device" : "1.00",
           "bus_power" : "900",
           "bus_power_used" : "0",
           "device_speed" : "super_speed",
           "extra_current_used" : "0",
-          "location_id" : "0x00200000 / 1",
-          "manufacturer" : "Apple Inc.",
-          "product_id" : "0x1018",
-          "serial_num" : "DLC222504CTKD56AE",
-          "vendor_id" : "apple_vendor_id"
+          "location_id" : "0x00200000 / 2",
+          "manufacturer" : "Fresco Logic, Inc.",
+          "product_id" : "0x5001",
+          "vendor_id" : "0x1d5c  (Fresco Logic Inc.)"
         },
         {
           "_items" : [
+            {
+              "_name" : "USB-C Hub Device",
+              "bcd_device" : "1.00",
+              "bus_power" : "500",
+              "bus_power_used" : "0",
+              "device_speed" : "high_speed",
+              "extra_current_used" : "0",
+              "location_id" : "0x00150000 / 4",
+              "manufacturer" : "Fresco Logic, Inc",
+              "product_id" : "0x5100",
+              "vendor_id" : "0x1d5c  (Fresco Logic Inc.)"
+            },
             {
               "_name" : "J-Link",
               "bcd_device" : "1.00",
@@ -47,37 +73,36 @@
               "bus_power_used" : "100",
               "device_speed" : "full_speed",
               "extra_current_used" : "0",
-              "location_id" : "0x00110000 / 4",
+              "location_id" : "0x00130000 / 5",
               "manufacturer" : "SEGGER",
               "product_id" : "0x0105",
-              "serial_num" : "000591199982",
+              "serial_num" : "000591195364",
               "vendor_id" : "0x1366"
             },
             {
-              "_name" : "USB-C Digital AV Multiport Adapter",
-              "bcd_device" : "43.20",
+              "_name" : "J-Link",
+              "bcd_device" : "1.00",
               "bus_power" : "500",
               "bus_power_used" : "100",
               "device_speed" : "full_speed",
               "extra_current_used" : "0",
-              "location_id" : "0x00120000 / 3",
-              "manufacturer" : "Apple Inc",
-              "product_id" : "0x1463",
-              "serial_num" : "DLC222504CTKD56AE",
-              "vendor_id" : "apple_vendor_id"
+              "location_id" : "0x00110000 / 6",
+              "manufacturer" : "SEGGER",
+              "product_id" : "0x0105",
+              "serial_num" : "000591199982",
+              "vendor_id" : "0x1366"
             }
           ],
           "_name" : "USB2.0 Hub",
-          "bcd_device" : "43.20",
+          "bcd_device" : "1.00",
           "bus_power" : "500",
           "bus_power_used" : "0",
           "device_speed" : "high_speed",
           "extra_current_used" : "0",
-          "location_id" : "0x00100000 / 2",
-          "manufacturer" : "Apple Inc.",
-          "product_id" : "0x1017",
-          "serial_num" : "DLC222504CTKD56AE",
-          "vendor_id" : "apple_vendor_id"
+          "location_id" : "0x00100000 / 1",
+          "manufacturer" : "Fresco Logic, Inc.",
+          "product_id" : "0x5011",
+          "vendor_id" : "0x1d5c  (Fresco Logic Inc.)"
         }
       ],
       "_name" : "USB31Bus",

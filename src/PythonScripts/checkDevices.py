@@ -25,15 +25,14 @@ def extract_names(obj, parent_key=None):
                 if(("Adapter" not in value) and ("Hub" not in value)):
                     if(serial_num == "000591195364"):
                         value="XMC1400"
+                        names.append(value)
                     elif(serial_num == "000591199982"):
                         value="XMC4700"
-                    else:
-                        value="other"
-                    names.append(value)
+                        names.append(value)
             names.extend(extract_names(value, key))
     return names
 
-all_names = set(extract_names(data))
-print(list(all_names))
+all_names = list(set(extract_names(data)))
+print(sorted(all_names))
 
 

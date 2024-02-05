@@ -9341,3 +9341,125 @@ CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_s
 127.0.0.1 - - [05/Feb/2024 09:37:28] "OPTIONS /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [05/Feb/2024 09:37:29] "POST /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [05/Feb/2024 09:37:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:45:48] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:45:48] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:46:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:46:00] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:47:35] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:47:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:50:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:50:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:50:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:50:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:51:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:51:02] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other', 'XMC4700']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC4700', 'other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC4700', 'other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other', 'XMC4700']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC4700', 'other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other', 'XMC1400']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400', 'other', 'XMC4700']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC4700', 'XMC1400', 'other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other', 'XMC1400', 'XMC4700']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC4700', 'XMC1400', 'other']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:51:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:51:57] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'XMC4700', 'XMC1400', 'Mass Storage Device']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:52:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:52:08] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['Arduino Make your UNO', 'XMC1400', 'Mass Storage Device', 'XMC4700']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:52:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:52:30] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC4700', 'XMC1400']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:52:41] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:52:41] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=1, stdout='', stderr='Traceback (most recent call last):\n  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 35, in <module>\n    all_names = set(extract_names(data))\n  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 32, in extract_names\n    names.extend(extract_names(value, key))\n  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 20, in extract_names\n    names.extend(extract_names(item, parent_key))\n  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 32, in extract_names\n    names.extend(extract_names(value, key))\nTypeError: \'NoneType\' object is not iterable\n')
+Traceback (most recent call last):
+  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 35, in <module>
+    all_names = set(extract_names(data))
+  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 32, in extract_names
+    names.extend(extract_names(value, key))
+  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 20, in extract_names
+    names.extend(extract_names(item, parent_key))
+  File "/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py", line 32, in extract_names
+    names.extend(extract_names(value, key))
+TypeError: 'NoneType' object is not iterable
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:53:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:53:02] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='None\n', stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:53:18] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:53:18] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400', 'XMC4700']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:54:17] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:54:17] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='None\n', stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 09:54:27] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 09:54:27] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400', 'XMC4700']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
