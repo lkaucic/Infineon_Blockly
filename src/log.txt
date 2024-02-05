@@ -9463,3 +9463,28 @@ CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_s
  * Restarting with watchdog (fsevents)
  * Debugger is active!
  * Debugger PIN: 107-891-426
+127.0.0.1 - - [05/Feb/2024 10:00:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:00:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:00:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:00:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:01:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:01:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:04] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:19] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:02:23] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:04:42] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:04:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:08:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:08:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:10:53] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:10:53] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:10:59] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:10:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:12:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:12:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2024 10:12:23] "POST /deviceCheck HTTP/1.1" 200 -

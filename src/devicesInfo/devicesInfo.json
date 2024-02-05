@@ -34,7 +34,7 @@
               "bus_power_used" : "800",
               "device_speed" : "super_speed",
               "extra_current_used" : "0",
-              "location_id" : "0x00240000 / 3",
+              "location_id" : "0x00240000 / 2",
               "manufacturer" : "Generic",
               "product_id" : "0x8468",
               "serial_num" : "058F84688461",
@@ -47,7 +47,7 @@
           "bus_power_used" : "0",
           "device_speed" : "super_speed",
           "extra_current_used" : "0",
-          "location_id" : "0x00200000 / 2",
+          "location_id" : "0x00200000 / 7",
           "manufacturer" : "Fresco Logic, Inc.",
           "product_id" : "0x5001",
           "vendor_id" : "0x1d5c  (Fresco Logic Inc.)"
