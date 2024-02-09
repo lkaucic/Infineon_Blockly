@@ -31,8 +31,6 @@ def run_python_script():
         request_data = request.get_json()
         code = request_data.get('code')
         config_code = request_data.get('config_code')
- 
-
       
 
         #specify destitation and save code

@@ -111,6 +111,23 @@ export const toolbox_xmc_14 = {
     'kind': 'block',
     'type': 'delay'
   },
+  {
+    'kind': 'block',
+    'type': 'adc'
+  },
+  {
+    'kind': 'block',
+    'type': 'adc_result'
+  },
+  {
+    'kind': 'block',
+    'type': 'adc_write'
+  },
+  {
+    'kind': 'block',
+    'type': 'asign'
+  },
+  
   ]
 }
 

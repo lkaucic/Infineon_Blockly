@@ -218,6 +218,16 @@ clangGenerator.forBlock['arith_operation'] = function(block, generator) {
   return [code, Order.ATOMIC];
 };
 
+clangGenerator.forBlock['asign'] = function(block, generator) {
+  var value_var1 = generator.valueToCode(block, 'var1', Order.ATOMIC);
+  var dropdown_operation = block.getFieldValue('operation');
+  var value_var2 = generator.valueToCode(block, 'var2', Order.ATOMIC);
+  // TODO: Assemble javascript into code variable.
+  var code = value_var1 + ' ' + dropdown_operation + ' ' + value_var2;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return code;
+};
+
 clangGenerator.forBlock['math_number'] = function(block) {
   // Numeric value.
   var code = parseFloat(block.getFieldValue('NUM'));
@@ -444,7 +454,7 @@ clangGenerator.forBlock['operation2'] = function(block, generator) {
 clangGenerator.forBlock['delay'] = function(block, generator) {
   var number_name = block.getFieldValue('NAME');
   // TODO: Assemble javascript into code variable.
-  var code = 'uint32_t start = sys_now();\n while ((sys_now() - start) < '+ number_name+');\n';
+  var code = 'XMC_Delay('+ number_name+');\n';
   return code;
 };
 
@@ -523,6 +533,27 @@ clangGenerator.forBlock['gpio_set_output_level'] = function(block, generator) {
   var dropdown_level = block.getFieldValue('LEVEL');
   // TODO: Assemble javascript into code variable.
   var code = 'XMC_GPIO_SetOutputLevel(XMC_GPIO_PORT'+text_port+', '+text_pin+', '+dropdown_level+');\n';
+  return code;
+};
+clangGenerator.forBlock['adc'] = function(block, generator) {
+  var field_name = block.getFieldValue('NAME');
+  // TODO: Assemble javascript into code variable.
+  var code = 'XMC_DAC_CH_Init(XMC_DAC0, dac_0_ch_0_NUM, &dac_0_ch_0_config);\nXMC_DAC_CH_Init(XMC_DAC0, dac_0_ch_1_NUM, &dac_0_ch_1_config);\nXMC_DAC_CH_StartSingleValueMode(XMC_DAC0, dac_0_ch_0_NUM);\nXMC_DAC_CH_StartSingleValueMode(XMC_DAC0, dac_0_ch_1_NUM);\n';
+  return code;
+
+};
+clangGenerator.forBlock['adc_result'] = function(block, generator) {
+  var number_name = block.getFieldValue('NAME');
+  // TODO: Assemble javascript into code variable.
+  var code = 'XMC_VADC_GROUP_GetResult(vadc_0_group_0_HW,' + number_name+');\n';
+  return [code, Order.ATOMIC];
+};
+
+clangGenerator.forBlock['adc_write'] = function(block, generator) {
+  var variable_value =  generator.nameDB_.getNameForUserVariable(block.getFieldValue('value'), Blockly.Variables.NAME_TYPE);
+  var number_name = block.getFieldValue('NAME');
+  // TODO: Assemble javascript into code variable.
+  var code = 'XMC_DAC_CH_Write(XMC_DAC0, dac_0_ch_'+number_name+'_NUM,  '+variable_value+');\n';
   return code;
 };
 

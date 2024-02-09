@@ -61,6 +61,10 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
         [
           "uint32_t",
           "uint32_t"
+        ],
+        [
+          "XMC_VADC_RESULT_SIZE_t",
+          "XMC_VADC_RESULT_SIZE_t"
         ]
       ]
     },
@@ -269,6 +273,61 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
     "tooltip": "",
     "helpUrl": ""
   },
+
+
+  {
+    "type": "asign",
+    "message0": "%1 %2 %3 %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "var1"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "operation",
+        "options": [
+          [
+            "=",
+            "="
+          ],
+          [
+            "+",
+            "+"
+          ],
+          [
+            "-",
+            "-"
+          ],
+          [
+            "*",
+            "*"
+          ],
+          [
+            "/",
+            "/"
+          ],
+          [
+            "%",
+            "%"
+          ]
+        ]
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "var2"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
     {
       "type": "while_do",
       "message0": "while %1 %2 %3 do %4",
@@ -995,6 +1054,62 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
     "previousStatement": null,
     "nextStatement": null,
     "colour": 20,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "adc",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_label_serializable",
+        "name": "NAME",
+        "text": "Initialise AD converter"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "adc_result",
+    "message0": "Get Result from ADC %1",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "NAME",
+        "value": 0,
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "output": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "adc_write",
+    "message0": "Write %1 to ADC %2",
+    "args0": [
+      {
+        "type": "field_variable",
+        "name": "value",
+        "variable": "item"
+      },
+      {
+        "type": "field_number",
+        "name": "NAME",
+        "value": 0,
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
     "tooltip": "",
     "helpUrl": ""
   }

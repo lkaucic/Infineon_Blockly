@@ -15,10 +15,11 @@ create_project_call = os.system("/Applications/ModusToolbox/tools_3.1/project-cr
 # Copying main .c file to Modus Toolbox project.........
 os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c MyHelloWorld/")
 # Copying configuration files to MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/.........
-os.system("mkdir MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource")
-os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.c MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.c")
-os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.h MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.h")
-
+# os.system("mkdir MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource")
+# os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.c MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.c")
+# os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.h MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.h")
+# os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.h MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.h")
+os.system("cp -r /Users/lkaucic/Downloads/running_led_interrupt/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/ MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/")
 # Specify the file path and name
 file_path = './test.txt'
 
