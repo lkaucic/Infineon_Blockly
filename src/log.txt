@@ -9850,3 +9850,1935 @@ Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation 
 Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
 Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
 127.0.0.1 - - [07/Feb/2024 13:45:29] "POST /runPythonScript HTTP/1.1" 200 -
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [09/Feb/2024 11:50:50] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 11:50:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 11:53:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 11:53:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 11:54:12] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 11:54:12] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 12:06:26] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 12:06:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 12:10:08] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 12:10:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 16:15:38] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 16:15:38] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:04:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:04:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:06:38] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:06:39] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:06:44] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:06:44] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:06:53] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:06:53] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:01] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:02] "POST /deviceCheck HTTP/1.1" 200 -
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['XMC1400']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (0 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2307 ms)
+Loading the device db
+ERROR:there was an error retreiving the asset 'https://github.com/Infineon/device-db' commit 'release-v4.11.0' - fatal: Unable to create '/Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0/.git/index.lock': File exists.
+ERROR:Another git process seems to be running in this repository, e.g.
+ERROR:an editor opened by 'git commit'. Please make sure all processes
+ERROR:are terminated then try again. If it still fails, a git process
+ERROR:may have crashed in this repository earlier:
+ERROR:remove the file manually to continue.
+ERROR:command '/Applications/ModusToolbox/tools_3.1/modus-shell/bin/bash -c git -C /Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0 -c advice.detachedHead=false checkout --quiet release-v4.11.0 --force'
+ERROR:  directory ''
+ERROR:  child process exited with error code 128
+ERROR:Global asset download of device-db loading completed with error.
+ERROR:The asyncStepComplete failed for LoadFlag DEVICE_DB.
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+fatal: Unable to create '/Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 10:07:05] "POST /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (4 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2468 ms)
+Loading the device db
+Finished loading the device db (692 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 10:07:05] "POST /runPythonScript HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [11/Feb/2024 10:07:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:31] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:38] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:07:39] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py', reloading
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [11/Feb/2024 10:09:12] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:09:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:10:17] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:10:18] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:17:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:17:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:24:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:24:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:28:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:28:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:30:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:30:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:33:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:33:57] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:38:26] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:38:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:58:26] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:58:27] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:59:32] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 10:59:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:00:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:00:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:19:33] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:19:34] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:20:19] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:20:19] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:27:17] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:27:18] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:27:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:27:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:34:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:34:03] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:34:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:34:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:35:27] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:35:27] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:41:05] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:41:05] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:43:06] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:43:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:43:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:43:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:45:43] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:45:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:52:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:52:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:54:50] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:54:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:55:50] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:55:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:58:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:58:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:58:04] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:59:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 11:59:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:01:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:01:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:05:53] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:05:54] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:07:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:07:57] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:08:33] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:08:33] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:13:32] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:13:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:15:21] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:15:21] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:15:30] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:15:31] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:15:42] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:15:42] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:16:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:16:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:19:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:19:04] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:19:24] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:19:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:24:41] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:24:41] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:25:12] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:25:12] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:28:22] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:28:23] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:33:35] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:33:35] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:37:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:37:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:39:18] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:39:18] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:41:12] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:41:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:41:52] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:41:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:43:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:43:49] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:44:28] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+127.0.0.1 - - [11/Feb/2024 12:44:28] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:44:30] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:45:32] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:45:33] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:46:23] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:46:23] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:49:42] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:49:42] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:51:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:51:03] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:52:52] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:52:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:53:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:53:45] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:54:52] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:54:52] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:55:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:55:36] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:56:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:56:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:57:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 12:57:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:00:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:00:14] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:01:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:01:00] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:01:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:01:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:05:57] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:05:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:06:40] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:06:40] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:08:38] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:08:39] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:08:39] "POST /deviceCheck HTTP/1.1" 200 -
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (4 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2488 ms)
+Loading the device db
+Finished loading the device db (651 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 13:08:42] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:09:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:09:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:09:39] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:09:39] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:12:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:12:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:15:43] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:15:44] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:18:59] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:19:00] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:27:24] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:27:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:28:41] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:28:41] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:30:42] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:30:42] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:33:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:33:45] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:36:06] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:36:06] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:37:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:37:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:37:55] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:37:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:53:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:53:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:57:51] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 13:57:51] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:08:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:08:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:11:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:11:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:12:03] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:12:04] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:15:37] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:15:38] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:15:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:15:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:25:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:25:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:26:15] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:26:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:26:33] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:26:34] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:28:38] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:28:39] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:29:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:29:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:29:27] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2680 ms)
+Loading the device db
+Finished loading the device db (923 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 14:29:31] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:34:46] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:34:46] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:38:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:38:14] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:38:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:38:45] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:39:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:39:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:42:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:42:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:43:43] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:43:43] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:45:39] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:45:39] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:50:30] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2936 ms)
+Loading the device db
+Finished loading the device db (687 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 14:50:34] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:50:51] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2785 ms)
+Loading the device db
+Finished loading the device db (647 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 14:50:55] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 14:51:18] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2403 ms)
+Loading the device db
+Finished loading the device db (671 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 14:51:22] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:18:25] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:18:25] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:19:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:19:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:20:32] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:20:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:21:24] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:21:24] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:21:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:21:49] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:28:00] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:28:00] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:29:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:29:01] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:35:04] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:35:05] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:36:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:36:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:41:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:41:32] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:42:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:42:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:42:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:42:59] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:43:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:43:09] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:43:18] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:43:18] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:43:26] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:43:26] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:44:31] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:44:31] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:52:21] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:52:21] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:53:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:53:46] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:54:17] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:54:18] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:55:17] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:55:17] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:55:29] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:55:30] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:56:27] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:56:28] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:57:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:57:14] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:58:14] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:58:14] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:58:45] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:58:46] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:59:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:59:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:59:15] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:59:15] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:59:49] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 15:59:49] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 16:04:28] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 16:04:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 16:06:58] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 16:06:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [11/Feb/2024 16:07:20] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (3837 ms)
+Loading the device db
+Finished loading the device db (670 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyHelloWorld" already exists and is not an empty directory.
+
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+cp: /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c: No such file or directory
+127.0.0.1 - - [11/Feb/2024 16:07:25] "POST /runPythonScript HTTP/1.1" 200 -

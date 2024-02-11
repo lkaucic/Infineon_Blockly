@@ -1,6 +1,62 @@
 {
   "SPUSBDataType" : [
     {
+      "_items" : [
+        {
+          "_name" : "USB3.1 Hub",
+          "bcd_device" : "43.20",
+          "bus_power" : "900",
+          "bus_power_used" : "0",
+          "device_speed" : "super_speed",
+          "extra_current_used" : "0",
+          "location_id" : "0x01200000 / 1",
+          "manufacturer" : "Apple Inc.",
+          "product_id" : "0x1018",
+          "serial_num" : "DLC222504CTKD56AE",
+          "vendor_id" : "apple_vendor_id"
+        },
+        {
+          "_items" : [
+            {
+              "_name" : "Arduino Make your UNO",
+              "bcd_device" : "0.02",
+              "bus_power" : "500",
+              "bus_power_used" : "100",
+              "device_speed" : "full_speed",
+              "extra_current_used" : "0",
+              "location_id" : "0x01110000 / 3",
+              "manufacturer" : "Arduino (www.arduino.cc)",
+              "product_id" : "0x006a",
+              "serial_num" : "951383238383511051C0",
+              "vendor_id" : "0x2341"
+            },
+            {
+              "_name" : "USB-C Digital AV Multiport Adapter",
+              "bcd_device" : "43.20",
+              "bus_power" : "500",
+              "bus_power_used" : "100",
+              "device_speed" : "full_speed",
+              "extra_current_used" : "0",
+              "location_id" : "0x01120000 / 4",
+              "manufacturer" : "Apple Inc",
+              "product_id" : "0x1463",
+              "serial_num" : "DLC222504CTKD56AE",
+              "vendor_id" : "apple_vendor_id"
+            }
+          ],
+          "_name" : "USB2.0 Hub",
+          "bcd_device" : "43.20",
+          "bus_power" : "500",
+          "bus_power_used" : "0",
+          "device_speed" : "high_speed",
+          "extra_current_used" : "0",
+          "location_id" : "0x01100000 / 2",
+          "manufacturer" : "Apple Inc.",
+          "product_id" : "0x1017",
+          "serial_num" : "DLC222504CTKD56AE",
+          "vendor_id" : "apple_vendor_id"
+        }
+      ],
       "_name" : "USB31Bus",
       "host_controller" : "AppleT8112USBXHCI"
     },

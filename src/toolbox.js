@@ -1,15 +1,7 @@
 export const toolbox = {
-  'kind': 'flyoutToolbox',
+  'kind': 'categoryToolbox',
   'contents': [
- 
-    {
-      'kind': 'block',
-      'type': 'variables_sett'
-    },
-    {
-      'kind': 'block',
-      'type': 'macro_sett'
-    },
+
   ]
 }
 

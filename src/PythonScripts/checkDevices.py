@@ -29,6 +29,9 @@ def extract_names(obj, parent_key=None):
                     elif(serial_num == "000591199982"):
                         value="XMC4700"
                         names.append(value)
+                    else:
+                        value="other"
+                        names.append(value)
             names.extend(extract_names(value, key))
     return names
 

@@ -66,7 +66,7 @@ const runCode = () => {
 // Load the initial state from storage and run the code.
 
 
-//load(ws);
+load(ws);
 runCode();
 
 // Every time the workspace changes state, save the changes to storage.
@@ -149,7 +149,7 @@ devicesButton.addEventListener('click', function(){
 selectButton.addEventListener('click', function () {
   modal.style.display = 'none';
   console.log(selected_device)
-  selected_device === "XMC4700" ? sel_toolbox = toolbox_xmc_14 : sel_toolbox = toolbox_xmc_14;
+  selected_device === "XMC4700" ? sel_toolbox = toolbox_xmc_47 : sel_toolbox = toolbox_xmc_47;
   ws.clear();
   ws.updateToolbox(sel_toolbox);
 });

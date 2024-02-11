@@ -482,23 +482,29 @@ clangGenerator.forBlock['output_type'] = function(block, generator) {
   return [code, Order.ATOMIC];
 };
 
-clangGenerator.forBlock['pin_set'] = function(block, generator) {
-  var dropdown_pin = block.getFieldValue('pin');
-  var dropdown_direction = block.getFieldValue('direction');
-  // ovo ispod se mora promjeniti tip da prihvaća input_type i output_type, a ne 'variable'
-  var value_variable = generator.valueToCode(block, 'variable', Order.ATOMIC);
-  var code = GetCustomConfigCode(0,dropdown_pin,dropdown_direction,value_variable);
+
+clangGenerator.forBlock['pins47'] = function(block, generator) {
+  var port = block.getFieldValue('NAME1');
+  var pin = block.getFieldValue('NAME');
+  var direction = block.getFieldValue("DIR");
+  var mode = generator.valueToCode(block, 'variable', Order.ATOMIC);
+ 
+  // TODO: Assemble javascript into code variable.
+  var code = GetCustomConfigCode(port,pin,direction,mode);
   return code[0] + code[1] + code[2];
 };
 
-clangGenerator.forBlock['pin1_set'] = function(block, generator) {
-  var dropdown_pin = block.getFieldValue('pin');
-  var dropdown_direction = block.getFieldValue('direction');
-  // ovo ispod se mora promjeniti tip da prihvaća input_type i output_type, a ne 'variable'
-  var value_variable = generator.valueToCode(block, 'variable', Order.ATOMIC);
-  var code = GetCustomConfigCode(1,dropdown_pin,dropdown_direction,value_variable);
+clangGenerator.forBlock['pins14'] = function(block, generator) {
+  var port = block.getFieldValue('NAME1');
+  var pin = block.getFieldValue('NAME');
+  var direction = block.getFieldValue("DIR");
+  var mode = generator.valueToCode(block, 'variable', Order.ATOMIC);
+ 
+  // TODO: Assemble javascript into code variable.
+  var code = GetCustomConfigCode(port,pin,direction,mode);
   return code[0] + code[1] + code[2];
 };
+
 
 clangGenerator.forBlock['init'] = function(block, generator) {
   var code = 'cy_rslt_t result = cybsp_init();\nif (result != CY_RSLT_SUCCESS)\n{\nCY_ASSERT(0);\n}\n';
@@ -557,7 +563,11 @@ clangGenerator.forBlock['adc_write'] = function(block, generator) {
   return code;
 };
 
-
+clangGenerator.forBlock['toggle_led'] = function(block, generator) {
+  // TODO: Assemble javascript into code variable.
+  var code = "XMC_GPIO_ToggleOutput(CYBSP_USER_LED_PORT, CYBSP_USER_LED_PIN);\n";
+  return code;
+};
 
 clangGenerator.workspaceToCode = function(workspace = Blockly.Workspace){
   if (!workspace) {
