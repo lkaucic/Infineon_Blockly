@@ -169,7 +169,7 @@ buildButton.addEventListener('click', function() {
         headers: {
           'Content-type': 'application/json',
         },
-        body: JSON.stringify({code: code, config_code: configurationCode }),
+        body: JSON.stringify({code: code, config_code: configurationCode, device: selected_device }),
     })
     .then(response => response.json())
     .then(data => {
