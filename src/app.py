@@ -49,6 +49,9 @@ def run_python_script():
 
         populate_cycfg_notices(selected_device)
 
+        if(selected_device == "XMC4700"):
+            selected_device = "KIT_XMC47_RELAX_V1"
+        else: selected_device = "KIT_XMC14_BOOT_001"
 
         print("Script executed successfully")
         print("###############################################################")
@@ -61,7 +64,7 @@ def run_python_script():
         print(output.stderr)
         print("###############################################################")
         print("STARTING UPLOAD SCRIPT")
-        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py'], capture_output=True, text=True)
+        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', f"{selected_device}"], capture_output=True, text=True)
         print(output.stdout)
         print(output.stderr)
         print("###############################################################")

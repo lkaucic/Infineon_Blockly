@@ -1,6 +1,7 @@
 import os
+import sys
 
-
+name = sys.argv[1]
 # Changing working directory to Desktop........
 os.chdir("/Users/lkaucic/Desktop")
 # Checking working directory.........
@@ -9,17 +10,16 @@ os.system("pwd")
 os.system("mkdir BlocklyInfineon")
 # Changing working directory to /Desktop/BlocklyInfineon/.........
 os.chdir("BlocklyInfineon")
-# Creating MyHelloWorld blank project for KIT_XMC47_RELAX_V1.........
-#create_project_call = os.system("/Applications/ModusToolbox/tools_3.1/project-creator/project-creator-cli --board-id KIT_XMC14_BOOT_001 --app-id mtb-example-xmc-blinky-freertos --user-app-name Blinky --target-dir './'")
-create_project_call = os.system("/Applications/ModusToolbox/tools_3.1/project-creator/project-creator-cli --board-id KIT_XMC47_RELAX_V1 --app-id mtb-example-xmc-empty-app --user-app-name MyHelloWorld --target-dir './'")
+# Creating MyXMCapp blank project for Selected device.........
+create_project_call = os.system(f"/Applications/ModusToolbox/tools_3.1/project-creator/project-creator-cli --board-id {name} --app-id mtb-example-xmc-empty-app --user-app-name MyXMCapp --target-dir './'")
 # Copying main .c file to Modus Toolbox project.........
-os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c MyHelloWorld/")
-# Copying configuration files to MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/.........
-# os.system("mkdir MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource")
-# os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.c MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.c")
-# os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.h MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.h")
-# os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.h MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/cycfg_pins.h")
-os.system("cp -r /Users/lkaucic/Downloads/running_led_interrupt/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/GeneratedSource/ MyHelloWorld/bsps/TARGET_APP_KIT_XMC47_RELAX_V1/config/")
+os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/main.c MyXMCapp/")
+# Copying configuration files to MyXMCapp/bsps/{name}/config/GeneratedSource/.........
+os.system(f"mkdir MyXMCapp/bsps/TARGET_APP_{name}/config/GeneratedSource")
+os.system(f"cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.c MyXMCapp/bsps/TARGET_APP_{name}/config/GeneratedSource/cycfg_pins.c")
+os.system(f"cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.h MyXMCapp/bsps/TARGET_APP_{name}/config/GeneratedSource/cycfg_pins.h")
+
+
 # Specify the file path and name
 file_path = './test.txt'
 

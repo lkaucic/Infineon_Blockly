@@ -1047,7 +1047,7 @@ Blockly.Blocks['pins47'] = {
           optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8 - CYBSP_USER_LED2",  "CYBSP_USER_LED2"],[  "9 - CYBSP_USER_LED, CYBSP_USER_LED1",  "CYBSP_USER_LED, CYBSP_USER_LED1"],[  "10",  "10"],[  "11",  "11"]];
         } else if(newValue === "6") {
           optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"]];        
-        } else if(new Value === "14") {
+        } else if(newValue === "14") {
           optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8",  "8"],[  "9",  "9"],[  "12",  "12"],[  "13",  "13"],[  "14",  "14"],[  "15",  "15"]];        
         } else optionsForName = [[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8 - CYBSP_ETH_CLK",  "CYBSP_ETH_CLK"],[  "9 - CYBSP_ETH_CRS",  "CYBSP_ETH_CRS"],[  "12 - CYBSP_USER_BTN2",  "CYBSP_USER_BTN2"],[  "13 - CYBSP_USER_BTN, CYBSP_USER_BTN1",  "CYBSP_USER_BTN, CYBSP_USER_BTN1"],[  "14",  "14"],[  "15",  "15"]];
 

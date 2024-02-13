@@ -1,0 +1,399 @@
+127.0.0.1 - - [12/Feb/2024 17:14:34] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2024 17:14:34] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2024 17:20:11] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2024 17:20:11] "POST /deviceCheck HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [13/Feb/2024 09:37:57] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:37:58] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:39:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:39:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:39:45] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:39:45] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:39:47] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:39:47] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:39:50] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:40:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:40:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:40:18] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:40:18] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:40:31] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:40:31] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:46:34] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:46:35] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:47:36] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:47:37] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:47:49] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [13/Feb/2024 09:47:49] "POST /runPythonScript HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+
+python: can't open file '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py KIT_XMC14_BOOT_001': [Errno 2] No such file or directory
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+
+python: can't open file '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py KIT_XMC14_BOOT_001': [Errno 2] No such file or directory
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+
+python: can't open file '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py KIT_XMC14_BOOT_001': [Errno 2] No such file or directory
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+
+python: can't open file '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py KIT_XMC14_BOOT_001': [Errno 2] No such file or directory
+
+###############################################################
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+
+python: can't open file '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py KIT_XMC14_BOOT_001': [Errno 2] No such file or directory
+
+###############################################################
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+
+python: can't open file '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py KIT_XMC14_BOOT_001': [Errno 2] No such file or directory
+
+###############################################################
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+
+python: can't open file '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py KIT_XMC14_BOOT_001': [Errno 2] No such file or directory
+
+###############################################################
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+127.0.0.1 - - [13/Feb/2024 09:49:45] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2945 ms)
+Loading the device db
+Finished loading the device db (605 ms)
+Starting application creation for '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp'.
+Acquiring the application source 'https://github.com/cypresssemiconductorco/mtb-example-xmc-empty-app'.
+Acquired application source successfully.
+Loading the application.
+Loaded the application successfully.
+Processing project 'MyXMCapp'.
+Starting to commit changes to the filesystem and project 'mtb-example-xmc-empty-app'.
+Writing mtb file for asset 'KIT_XMC14_BOOT_001' to the folder '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/deps'.
+Writing mtb file for asset 'core-lib' to the folder '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs'.
+Writing mtb file for asset 'core-make' to the folder '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs'.
+Writing mtb file for asset 'mtb-xmclib-cat3' to the folder '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs'.
+Writing mtb file for asset 'recipe-make-cat3' to the folder '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs'.
+Writing mtb file for asset 'cmsis' to the folder '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs'.
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/TARGET_KIT_XMC14_BOOT_001 TARGET_KIT_XMC14_BOOT_001
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-lib clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/core-lib release-v1.4.1
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-make clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/core-make release-v3.2.2
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/mtb-xmclib-cat3 clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/mtb-xmclib-cat3 release-v4.3.0
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-make clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/core-make release-v3.2.2
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/recipe-make-cat3 clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/recipe-make-cat3 release-v2.1.1
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-lib clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/core-lib release-v1.4.1
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/cmsis clone --origin cypress --no-checkout https://github.com/Infineon/cmsis release-v5.8.0
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/TARGET_KIT_XMC14_BOOT_001 TARGET_KIT_XMC14_BOOT_001
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-make/release-v3.2.2 -c advice.detachedHead=false checkout release-v3.2.2 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-make/release-v3.2.2 -c advice.detachedHead=false checkout release-v3.2.2 --force
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout release-v1.4.1 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout release-v1.4.1 --force
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs/TARGET_KIT_XMC14_BOOT_001 -c advice.detachedHead=false checkout release-v2.2.1 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs/TARGET_KIT_XMC14_BOOT_001 -c advice.detachedHead=false checkout release-v2.2.1 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/recipe-make-cat3 clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/recipe-make-cat3 release-v2.1.1
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/recipe-make-cat3/release-v2.1.1 -c advice.detachedHead=false checkout release-v2.1.1 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/recipe-make-cat3/release-v2.1.1 -c advice.detachedHead=false checkout release-v2.1.1 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/cmsis clone --origin cypress --no-checkout https://github.com/Infineon/cmsis release-v5.8.0
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout release-v5.8.0 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout release-v5.8.0 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/mtb-xmclib-cat3 clone --origin cypress --no-checkout https://github.com/cypresssemiconductorco/mtb-xmclib-cat3 release-v4.3.0
+Starting: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/mtb-xmclib-cat3/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
+Success: git -C /Users/lkaucic/Desktop/BlocklyInfineon/mtb_shared/mtb-xmclib-cat3/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
+Requested to change the active target to 'APP_KIT_XMC14_BOOT_001'.
+Removed the file '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/deps/TARGET_KIT_XMC14_BOOT_001.mtb'.
+Writing the file '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/libs/app.mk'.
+Successfully committed changes to the project 'mtb-example-xmc-empty-app'.
+Project "MyXMCapp" created successfully.
+Successfully created "MyXMCapp" application.
+Upload script finished successfully
+
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Cloning into 'TARGET_KIT_XMC14_BOOT_001'...
+
+Cloning into 'release-v1.4.1'...
+
+Cloning into 'release-v3.2.2'...
+
+Cloning into 'release-v4.3.0'...
+
+Cloning into 'release-v2.1.1'...
+
+Cloning into 'release-v5.8.0'...
+
+HEAD is now at b962a1e Upload core-make 3.2.2.4739 [1647]
+
+HEAD is now at a74be8b Upload core-lib [1796]
+
+HEAD is now at 6f42532 Upload TARGET_KIT_XMC14_BOOT_001 [2049]
+
+HEAD is now at 346bea7 Upload recipe-make-cat3 2.1.1.4648 [1380]
+
+HEAD is now at ce02f64 Upload cmsis 5.8.0.50
+
+HEAD is now at 0f6c40a Upload mtb-xmclib-cat3 4.3.0.4408 [2091]
+
+mkdir: MyXMCapp/bsps/KIT_XMC14_BOOT_001/config: No such file or directory
+cp: MyXMCapp/bsps/KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: No such file or directory
+cp: MyXMCapp/bsps/KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.h: No such file or directory
+127.0.0.1 - - [13/Feb/2024 09:49:56] "POST /runPythonScript HTTP/1.1" 200 -
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', reloading
+
+###############################################################
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
