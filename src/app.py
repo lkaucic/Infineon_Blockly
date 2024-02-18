@@ -64,7 +64,7 @@ def run_python_script():
         print(output.stderr)
         print("###############################################################")
         print("STARTING UPLOAD SCRIPT")
-        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', f"{selected_device}"], capture_output=True, text=True)
+        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/build.py', f"{selected_device}"], capture_output=True, text=True)
         print(output.stdout)
         print(output.stderr)
         print("###############################################################")

@@ -397,3 +397,20 @@ cp: MyXMCapp/bsps/KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.h: No suc
  * Restarting with watchdog (fsevents)
  * Debugger is active!
  * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', reloading
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
+ * Detected change in '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/app.py', reloading
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 107-891-426
