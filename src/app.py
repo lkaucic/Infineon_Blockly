@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import subprocess
 import sys
+import os
 
 app = Flask(__name__)
 CORS(app) 
@@ -31,8 +32,7 @@ def run_python_script():
         request_data = request.get_json()
         code = request_data.get('code')
         config_code = request_data.get('config_code')
- 
-
+        selected_device = request_data.get('device')
       
 
         #specify destitation and save code
@@ -47,7 +47,11 @@ def run_python_script():
             with open(destination2, 'w') as file:
                 file.write(config_code)
 
+        populate_cycfg_notices(selected_device)
 
+        if(selected_device == "XMC4700"):
+            selected_device = "KIT_XMC47_RELAX_V1"
+        else: selected_device = "KIT_XMC14_BOOT_001"
 
         print("Script executed successfully")
         print("###############################################################")
@@ -60,7 +64,7 @@ def run_python_script():
         print(output.stderr)
         print("###############################################################")
         print("STARTING UPLOAD SCRIPT")
-        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py'], capture_output=True, text=True)
+        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/build.py', f"{selected_device}"], capture_output=True, text=True)
         print(output.stdout)
         print(output.stderr)
         print("###############################################################")
@@ -70,7 +74,28 @@ def run_python_script():
         return jsonify({'success': False, 'error': str(e)})
     
 
+def populate_cycfg_notices(device_name):
+    # Copy the template file to cycfg_notices.h
+    os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_notices_template.h /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_notices.h")
 
+    # Read the template file
+    with open("/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_notices_template.h", "r") as f:
+        template_content = f.read()
+
+    f.close()
+    # Replace placeholders with actual device name
+    if device_name == "XMC4700":
+        series = "XMC4700"
+        sub = "F144x2048"
+    else:
+        series = "XMC1404"
+        sub = "Q064x0200"
+        
+    replaced_content = template_content.replace("$SERIES$", series).replace("$SUB$", sub)
+
+    with open("/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_notices.h", 'w+') as f:
+        f.write(replaced_content)
+    f.close()
 
 
 if __name__ == '__main__':

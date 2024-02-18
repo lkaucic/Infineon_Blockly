@@ -61,6 +61,10 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
         [
           "uint32_t",
           "uint32_t"
+        ],
+        [
+          "XMC_VADC_RESULT_SIZE_t",
+          "XMC_VADC_RESULT_SIZE_t"
         ]
       ]
     },
@@ -269,6 +273,61 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
     "tooltip": "",
     "helpUrl": ""
   },
+
+
+  {
+    "type": "asign",
+    "message0": "%1 %2 %3 %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "var1"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "operation",
+        "options": [
+          [
+            "=",
+            "="
+          ],
+          [
+            "+",
+            "+"
+          ],
+          [
+            "-",
+            "-"
+          ],
+          [
+            "*",
+            "*"
+          ],
+          [
+            "/",
+            "/"
+          ],
+          [
+            "%",
+            "%"
+          ]
+        ]
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "var2"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
     {
       "type": "while_do",
       "message0": "while %1 %2 %3 do %4",
@@ -433,7 +492,7 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
             [
               "15",
               "15"
-            ]
+            ],
           ]
         },
         {
@@ -661,119 +720,8 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
   "tooltip": "config",
   "helpUrl": ""
 },
-  {
-    "type": "pin1_set",
-    "message0": "port 1 pin: %1 direction: %2 %3",
-    "args0": [
-      {
-        "type": "field_dropdown",
-        "name": "pin",
-        "options": [
-          [
-            "0",
-            "0"
-          ],
-          [
-            "1",
-            "1"
-          ],
-          [
-            "2",
-            "2"
-          ],
-          [
-            "3",
-            "3"
-          ],
-          [
-            "4 - CYBSP_DEBUG_UART_RX",
-            "CYBSP_DEBUG_UART_RX"
-          ],
-          [
-            "5 - CYBSP_DEBUG_UART_TX",
-            "CYBSP_DEBUG_UART_TX"
-          ],
-          [
-            "6 - CYBSP_MMC_DAT1",
-            "CYBSP_MMC_DAT1"
-          ],
-          [
-            "7 - CYBSP_MMC_DAT2",
-            "CYBSP_MMC_DAT2"
-          ],
-          [
-            "8",
-            "8"
-          ],
-          [
-            "9",
-            "9"
-          ],
-          [
-            "10",
-            "10"
-          ],
-          [
-            "11",
-            "11"
-          ],
-          [
-            "12 - CYBSP_CAN_TX",
-            "CYBSP_CAN_TX"
-          ],
-          [
-            "13 - CYBSP_CAN_RX",
-            "CYBSP_CAN_RX"
-          ],
-          [
-            "14",
-            "14"
-          ],
-          [
-            "15",
-            "15"
-          ]
-        ]
-      },
-      {
-        "type": "field_dropdown",
-        "name": "direction",
-        "options": [
-          [
-            "input",
-            "input"
-          ],
-          [
-            "input/output",
-            "input/output"
-          ],
-          [
-            "hardware controlled",
-            "hardware controlled"
-          ]
-        ]
-      },
-      {
-        "type": "input_value",
-        "name": "variable"
-      }
-    ],
-    "inputsInline": true,
-    "previousStatement": null,
-    "nextStatement": null,
-    "colour": 300,
-    "tooltip": "config",
-    "helpUrl": ""
-  },
-  {
-    "type": "init",
-    "message0": "Initialize the device",
-    "previousStatement": null,
-    "nextStatement": null,
-    "colour": 20,
-    "tooltip": "",
-    "helpUrl": ""
-  },
+
+
   {
     "type": "gpio_init",
     "message0": "Initialize GPIO: %1 , %2 , %3",
@@ -997,6 +945,169 @@ export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([{
     "colour": 20,
     "tooltip": "",
     "helpUrl": ""
+  },
+  {
+    "type": "adc",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_label_serializable",
+        "name": "NAME",
+        "text": "Initialise AD converter"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "adc_result",
+    "message0": "Get Result from ADC %1",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "NAME",
+        "value": 0,
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "output": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "adc_write",
+    "message0": "Write %1 to ADC %2",
+    "args0": [
+      {
+        "type": "field_variable",
+        "name": "value",
+        "variable": "item"
+      },
+      {
+        "type": "field_number",
+        "name": "NAME",
+        "value": 0,
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "toggle_led",
+    "message0": "toggle LED",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
   }
 ]);
+
+Blockly.Blocks['pins47'] = {
+  init: function() {
+    var thisBlock = this;
+    var optionsForName = [["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"], ["8", "8"],["9", "9"], ["10", "10"], ["11", "11"],["12", "12"], ["13", "13"], ["14", "14"], ["15", "15"]];
+    var dropdownName = new Blockly.FieldDropdown(optionsForName, function(option) {
+      // Handle change of the second dropdown here if needed
+    });
+
+    var input = this.appendValueInput("TYPE")
+    .appendField("Add ")
+    .appendField(new Blockly.FieldDropdown([[  "input",  "INPUT"],[  "input/output",  "OUTPUT"],[  "hardware controlled",  " OUTPUT"]]), "DIR")
+    .appendField("on Port: ")
+    .appendField(new Blockly.FieldDropdown([["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["14", "14"], ["15", "15"]]), "NAME1")
+    .appendField("Pin: ")
+    .appendField(dropdownName, "NAME");
+      
+
+    thisBlock.setOnChange(function(event = Blockly.Events.BlockChange) {
+      if (event.name === 'NAME1') {
+        var newValue = event.newValue;
+        if (newValue === "0") {
+          optionsForName = [["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"], ["8", "8"],["9", "9"], ["10", "10"], ["11", "11"],["12", "12"], ["13", "13"], ["14", "14"], ["15", "15"]];
+        } else if(newValue === "1") {
+          optionsForName = [["0","0"],["1","1"],["2","2"],["3","3"],["4 - CYBSP_DEBUG_UART_RX","CYBSP_DEBUG_UART_RX"],["5 - CYBSP_DEBUG_UART_TX","CYBSP_DEBUG_UART_TX"],["6 - CYBSP_MMC_DAT1","CYBSP_MMC_DAT1"], [   "7 - CYBSP_MMC_DAT2",   "CYBSP_MMC_DAT2" ], [   "8",   "8" ], [   "9",   "9" ], [   "10",   "10" ], [   "11",   "11" ], [   "12 - CYBSP_CAN_TX",   "CYBSP_CAN_TX" ], [   "13 - CYBSP_CAN_RX",   "CYBSP_CAN_RX" ], [   "14",   "14" ], [   "15",   "15" ]];
+        } else if(newValue === "2") {
+          optionsForName = [[  "0 - CYBSP_ETH_MDIO",  "CYBSP_ETH_MDIO"],[  "1 - CYBSP_SWO",  "CYBSP_SWO"],[  "2 - CYBSP_ETH_RXD0",  "CYBSP_ETH_RXD0"],[  "3 - CYBSP_ETH_RXD1",  "CYBSP_ETH_RXD1"],[  "4 - CYBSP_ETH_RXER",  "CYBSP_ETH_RXER"],[  "5 - CYBSP_ETH_TXEN",  "CYBSP_ETH_TXEN"],[  "6",  "6"],[  "7 - CYBSP_ETH_MDC",  "CYBSP_ETH_MDC"],[  "8 - CYBSP_ETH_TXD0",  "CYBSP_ETH_TXD0"],[  "9 - CYBSP_ETH_TXD1",  "CYBSP_ETH_TXD1"],[  "10",  "10"],[  "11",  "11"],[  "12",  "12"],[  "13",  "13"],[  "14",  "14"],[  "15",  "15"]];
+        } else if(newValue === "3"){
+          optionsForName = [[  "0",  "0"],[  "1 ",  "1"],[  "2",  "2"],[  "3 ",  "3"],[  "4",  "4"],[  "5 - CYBSP_MMC_CMD",  "CYBSP_MMC_CMD"],[  "6 - CYBSP_MMC_CLK",  "CYBSP_MMC_CLK"],[  "7",  "7"],[  "8",  "8"],[  "9",  "9"],[  "10",  "10"],[  "11",  "11"],[  "12",  "12"],[  "13",  "13"],[  "14",  "14"],[  "15",  "15"]];
+        } else if (newValue === "4"){
+          optionsForName = [[  "0 - CYBSP_MMC_DAT3",  "CYBSP_MMC_DAT3"],[  "1 - CYBSP_MMC_DAT0",  "CYBSP_MMC_DAT0"],[  "2 - CYBSP_QSPI_SCK",  "CYBSP_QSPI_SCK"],[  "3 - CYBSP_SS",  "CYBSP_SS"],[  "4 - CYBSP_QSPI_D3",  "CYBSP_QSPI_D3"],[  "5 - CYBSP_QSPI_D2",  "CYBSP_QSPI_D2"],[  "6 - CYBSP_QSPI_D1",  "CYBSP_QSPI_D1"],[  "7 - CYBSP_QSPI_D0",  "CYBSP_QSPI_D0"]];        
+        } else if(newValue === "5"){
+          optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8 - CYBSP_USER_LED2",  "CYBSP_USER_LED2"],[  "9 - CYBSP_USER_LED, CYBSP_USER_LED1",  "CYBSP_USER_LED, CYBSP_USER_LED1"],[  "10",  "10"],[  "11",  "11"]];
+        } else if(newValue === "6") {
+          optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"]];        
+        } else if(newValue === "14") {
+          optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8",  "8"],[  "9",  "9"],[  "12",  "12"],[  "13",  "13"],[  "14",  "14"],[  "15",  "15"]];        
+        } else optionsForName = [[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8 - CYBSP_ETH_CLK",  "CYBSP_ETH_CLK"],[  "9 - CYBSP_ETH_CRS",  "CYBSP_ETH_CRS"],[  "12 - CYBSP_USER_BTN2",  "CYBSP_USER_BTN2"],[  "13 - CYBSP_USER_BTN, CYBSP_USER_BTN1",  "CYBSP_USER_BTN, CYBSP_USER_BTN1"],[  "14",  "14"],[  "15",  "15"]];
+
+        dropdownName.setValue("default");
+        dropdownName.dispose();
+        dropdownName = new Blockly.FieldDropdown(optionsForName);
+        input.removeField("NAME");
+        input.appendField(dropdownName, "NAME");
+      }
+    });
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(300);
+    this.setTooltip("config");
+    this.setHelpUrl("");
+  },
+};
+
+Blockly.Blocks['pins14'] = {
+  init: function() {
+    var thisBlock = this;
+    var optionsForName = [["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"], ["8", "8"],["9", "9"], ["10", "10"], ["11", "11"],["12", "12"], ["13", "13"], ["14", "14"], ["15", "15"]];
+    var dropdownName = new Blockly.FieldDropdown(optionsForName, function(option) {
+      // Handle change of the second dropdown here if needed
+    });
+
+    var input = this.appendValueInput("TYPE")
+    .appendField("Add ")
+    .appendField(new Blockly.FieldDropdown([[  "input",  "INPUT"],[  "input/output",  "OUTPUT"],[  "hardware controlled",  " OUTPUT"]]), "DIR")
+    .appendField("on Port: ")
+    .appendField(new Blockly.FieldDropdown([["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"]]), "NAME1")
+    .appendField("Pin: ")
+    .appendField(dropdownName, "NAME");
+      
+
+    thisBlock.setOnChange(function(event = Blockly.Events.BlockChange) {
+      if (event.name === 'NAME1') {
+        var newValue = event.newValue;
+        if (newValue === "0") {
+          optionsForName = [["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"], ["8 - CYBSP_RTC_XTAL1", "CYBSP_RTC_XTAL1"],["9 - CYBSP_RTC_XTAL2", "CYBSP_RTC_XTAL2"], ["10 - CYBSP_XTAL1", "CYBSP_XTAL1"], ["11 - CYBSP_XTAL2", "CYBSP_XTAL2"],["12", "12"], ["13", "13"], ["14 - CYBSP_SWDIO", "CYBSP_SWDIO"], ["15 - CYBSP_SWDCK", "CYBSP_SWDCK"]];
+        } else if(newValue === "1") {
+          optionsForName = [["0","0"],["1","1"],["2 - CYBSP_DEBUG_UART_TX","CYBSP_DEBUG_UART_TX"],["3 - CYBSP_DEBUG_UART_RX","CYBSP_DEBUG_UART_RX"],["4","4"],["5","5"],["6","6"], [   "7",   "7" ], [   "8",   "8" ]];
+        } else if(newValue === "2") {
+          optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5 - CYBSP_POT",  "CYBSP_POT"],[  "6",  "6"],[  "7",  "7"],[  "8",  "8"],[  "9",  "9"],[  "10",  "10"],[  "11",  "11"],[  "12",  "12"],[  "13",  "13"]];
+        } else if(newValue === "3"){
+          optionsForName = [[  "0",  "0"],[  "1 ",  "1"],[  "2",  "2"],[  "3 ",  "3"],[  "4",  "4"]];
+        } else optionsForName = [[  "0 - CYBSP_USER_LED, CYBSP_USER_LED1",  "CYBSP_USER_LED, CYBSP_USER_LED1"],[  "1 - CYBSP_USER_LED2",  "CYBSP_USER_LED2"],[  "2 - CYBSP_USER_LED3",  "CYBSP_USER_LED3"],[  "3 - CYBSP_USER_LED4",  "CYBSP_USER_LED4"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8",  "8"],[  "9",  "9"],[  "10",  "10"],[  "11",  "11"]];
+
+        dropdownName.setValue("default");
+        dropdownName.dispose();
+        dropdownName = new Blockly.FieldDropdown(optionsForName);
+        input.removeField("NAME");
+        input.appendField(dropdownName, "NAME");
+      }
+    });
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(300);
+    this.setTooltip("config");
+    this.setHelpUrl("");
+  },
+};
 

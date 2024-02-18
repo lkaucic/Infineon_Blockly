@@ -33,7 +33,7 @@ const closeModalButton = document.getElementById('closeModalButton');
 const blocklyDiv = document.getElementById('blocklyDiv');
 const ws = Blockly.inject(blocklyDiv, {
   toolbox, 
-  grid:{spacing: 20,length: 3,colour: '#ccc', snap: true},
+  //grid:{spacing: 20,length: 3,colour: '#ccc', snap: true},
   trashcan: true,
   scrollbars: true
 });
@@ -94,8 +94,8 @@ ws.addChangeListener((e) => {
 
 
 devicesButton.addEventListener('click', function(){
-
-    modalDevices.innerHTML = '';
+    
+  modalDevices.innerHTML = '';
 
     fetch(`http://127.0.0.1:8000/deviceCheck`, {
       method: 'POST',
@@ -126,7 +126,11 @@ devicesButton.addEventListener('click', function(){
         modalDevices.appendChild(document.createElement('br'));
       })
 
+      if(devices.length !== 0){
       modal.style.display = 'block';
+      } else {
+        alert("No device connected!");
+      }
 
       const radioButtons = document.querySelectorAll('input[type="radio"]');
       radioButtons.forEach(radio => {
@@ -145,14 +149,14 @@ devicesButton.addEventListener('click', function(){
 selectButton.addEventListener('click', function () {
   modal.style.display = 'none';
   console.log(selected_device)
-  selected_device === "XMC4700" ? sel_toolbox = toolbox_xmc_47 : sel_toolbox = toolbox_xmc_14;
+  selected_device === "XMC4700" ? sel_toolbox = toolbox_xmc_47 : sel_toolbox = toolbox_xmc_47;
   ws.clear();
   ws.updateToolbox(sel_toolbox);
 });
 
 closeModalButton.addEventListener('click', function () {
   modal.style.display = 'none';
-});
+});                   
 
 buildButton.addEventListener('click', function() {
   
@@ -165,7 +169,7 @@ buildButton.addEventListener('click', function() {
         headers: {
           'Content-type': 'application/json',
         },
-        body: JSON.stringify({code: code, config_code: configurationCode }),
+        body: JSON.stringify({code: code, config_code: configurationCode, device: selected_device }),
     })
     .then(response => response.json())
     .then(data => {
