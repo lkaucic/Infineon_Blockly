@@ -19,14 +19,14 @@ os.system(f"mkdir MyXMCapp/bsps/TARGET_APP_{name}/config/GeneratedSource")
 os.system(f"cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.c MyXMCapp/bsps/TARGET_APP_{name}/config/GeneratedSource/cycfg_pins.c")
 os.system(f"cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/cFiles/cycfg_pins.h MyXMCapp/bsps/TARGET_APP_{name}/config/GeneratedSource/cycfg_pins.h")
 # Running make getlibs command
-os.system("cd MyXMCapp/")
+os.chdir("MyXMCapp")
 os.system("make getlibs")
-os.system("cd ..")
+os.chdir("..")
 # Fix Modus bug by copying fixed program.mk file
-os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/program.mk /mtb_shared/recipe-make-cat3/release-v2.1.1/make/recipe")
+os.system("cp /Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/program.mk ./mtb_shared/recipe-make-cat3/release-v2.1.1/make/recipe")
 # Build the app
-os.system("cd MyXMCapp")
-os.system("make build")
+os.chdir("MyXMCapp")
+build_project_call = os.system("make build")
 
 
 # Specify the file path and name
@@ -36,7 +36,8 @@ file_path = './test.txt'
 # This will create the file if it doesn't exist or overwrite it if it does
 with open(file_path, 'w') as file:
     # Write content to the file
-    file.write("Project created with exit code %d" % create_project_call)
+    file.write(f"Project created with exit code {create_project_call}\n")
+    file.write(f"Project built with exit code {build_project_call}")
 
 print("Upload script finished successfully")
 
