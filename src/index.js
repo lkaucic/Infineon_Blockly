@@ -23,6 +23,7 @@ var sel_toolbox = toolbox;
 const codeDiv = document.getElementById('generatedCode').firstChild;
 const devicesButton = document.getElementById('outputPane').appendChild(document.getElementById('devicesButton'));
 const buildButton = document.getElementById('outputPane').appendChild(document.getElementById('buildButton'));
+const programButton = document.getElementById('outputPane').appendChild(document.getElementById('programButton'));
 
 const modal = document.getElementById('myModal');
 const modalDevices = document.getElementById('checklistContainer')
@@ -91,6 +92,7 @@ ws.addChangeListener((e) => {
   }
   runCode();
 });
+
 
 
 devicesButton.addEventListener('click', function(){
@@ -182,6 +184,23 @@ buildButton.addEventListener('click', function() {
     //console.log(code);
     console.log(configurationCode);
 });
+
+
+programButton.addEventListener('click', function(){
+  fetch(`http://127.0.0.1:8000/program`, {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json',
+    },
+})
+.then(response => response.json())
+.then(data => {
+    console.log(data); // Log the response from the server
+})
+.catch(error => {
+    console.error('Error:', error);
+});
+})
 
 function saveCCodeToFile(code, fileName) {
   const blob = new Blob([code], { type: 'text/plain' });

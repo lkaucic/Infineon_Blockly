@@ -73,6 +73,17 @@ def run_python_script():
         print(f"Error: {str(e)}")
         return jsonify({'success': False, 'error': str(e)})
     
+@app.route('/program', methods=['POST'])
+def program():
+    try:
+        output = subprocess.run(['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/upload.py'], capture_output=True, text=True)
+        print(output)
+        print(output.stderr)
+        return jsonify({'success': True, 'data': output.stdout})
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)})
+
 
 def populate_cycfg_notices(device_name):
     # Copy the template file to cycfg_notices.h

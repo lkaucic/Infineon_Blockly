@@ -74,6 +74,24 @@ pre, code {
     cursor: pointer;
   }
 
+  #programButton{
+    display: flex;
+    padding-bottom: 0%;
+    flex-direction: row;
+    height: 5%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+  }
+
+  #programButton:hover {
+    background-color:rgb(43, 104, 43);
+    cursor: pointer;
+  }
+
 
   #selectButton{
     display: flex;
