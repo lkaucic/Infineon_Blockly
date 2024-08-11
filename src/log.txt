@@ -1478,3 +1478,1002 @@ CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_s
  * Debugger PIN: 107-891-426
 127.0.0.1 - - [18/Feb/2024 13:00:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
 127.0.0.1 - - [18/Feb/2024 13:00:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:46:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:46:17] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:46:17] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:06] "OPTIONS /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:07] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:13] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:13] "POST /deviceCheck HTTP/1.1" 200 -
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout="['other']\n", stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+Script executed successfully
+###############################################################
+Fetching all connected devices and ports
+###############################################################
+STARTING ARRANGE FILES SCRIPT
+Pin configuration files arranged successfully!
+
+
+###############################################################
+STARTING UPLOAD SCRIPT
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+CompletedProcess(args=['python', '/Users/lkaucic/Desktop/Blockly_start/Blockly_start/src/PythonScripts/checkDevices.py'], returncode=0, stdout='[]\n', stderr='')
+
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (0 ms)
+Loading the tools information
+Finished loading the tools information (4 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2530 ms)
+Loading the device db
+Finished loading the device db (724 ms)
+ERROR:Application directory "/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp" already exists and is not an empty directory.
+
+Tools Directory: /Applications/ModusToolbox/tools_3.1
+Searching installed tools in progress...
+Searching installed tools complete
+
+==============================================================================
+= Importing libraries =
+==============================================================================
+mtbgetlibs: retreived MTBQueryAPI interface
+mtbgetlibs: running in 'Direct' mode
+0: Loading the application in directory '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp'
+0: using cached data from file '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/.mtbqueryapi'
+0: Finished loading the application data (22 ms total, 0 make)
+0: Loading the ModusToolbox Technology Packs and Early Access Packs
+0: Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+0: Loading the tools information
+0: Finished loading the tools information (4 ms)
+0: Loading the manifest data
+0: Finished loading the manifest data (1746 ms)
+0: Loaded ModusToolbox 3.x single core application
+0: ToolsDir is '/Applications/ModusToolbox/tools_3.1'
+0: loaded asset 'core-make'
+0: loaded asset 'core-lib'
+0: loaded asset 'cmsis'
+0: loaded asset 'mtb-xmclib-cat3'
+0: loaded asset 'recipe-make-cat3'
+mtbgetlibs: changes committed
+mtbgetlibs: completed in 3510 milliseconds
+==============================================================================
+= Import complete =
+==============================================================================
+
+Tools Directory: /Applications/ModusToolbox/tools_3.1
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+Initializing build: mtb-example-xmc-empty-app Debug APP_KIT_XMC14_BOOT_001 GCC_ARM
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Tools Directory: /Applications/ModusToolbox/tools_3.1
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Building 55 file(s)
+    Compiling app file cybsp.c
+    Compiling app file main.c
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+mkdir: MyXMCapp/bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource: File exists
+main.c:4:10: fatal error: cy_retarget_io.h: No such file or directory
+    4 | #include "cy_retarget_io.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/build/APP_KIT_XMC14_BOOT_001/Debug/main.o] Error 1
+make: *** [secondstage_build] Error 2
+127.0.0.1 - - [21/Feb/2024 07:47:15] "POST /runPythonScript HTTP/1.1" 200 -
+
+###############################################################
+/Users/lkaucic/Desktop
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (0 ms)
+Loading the tools information
+Finished loading the tools information (3 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2415 ms)
+Loading the device db
+ERROR:there was an error retreiving the asset 'https://github.com/Infineon/device-db' commit 'release-v4.11.0' - fatal: Unable to create '/Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0/.git/index.lock': File exists.
+ERROR:Another git process seems to be running in this repository, e.g.
+ERROR:an editor opened by 'git commit'. Please make sure all processes
+ERROR:are terminated then try again. If it still fails, a git process
+ERROR:may have crashed in this repository earlier:
+ERROR:remove the file manually to continue.
+ERROR:command '/Applications/ModusToolbox/tools_3.1/modus-shell/bin/bash -c git -C /Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0 -c advice.detachedHead=false checkout --quiet release-v4.11.0 --force'
+ERROR:  directory ''
+ERROR:  child process exited with error code 128
+ERROR:Global asset download of device-db loading completed with error.
+ERROR:The asyncStepComplete failed for LoadFlag DEVICE_DB.
+Tools Directory: /Applications/ModusToolbox/tools_3.1
+Searching installed tools in progress...
+Searching installed tools complete
+
+==============================================================================
+= Importing libraries =
+==============================================================================
+mtbgetlibs: retreived MTBQueryAPI interface
+mtbgetlibs: running in 'Direct' mode
+0: Loading the application in directory '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp'
+0: using cached data from file '/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/.mtbqueryapi'
+0: Finished loading the application data (22 ms total, 0 make)
+0: Loading the ModusToolbox Technology Packs and Early Access Packs
+0: Finished loading the ModusToolbox Technology Packs and Early Access Packs (2 ms)
+0: Loading the tools information
+0: Finished loading the tools information (4 ms)
+0: Loading the manifest data
+0: Finished loading the manifest data (1790 ms)
+0: Loaded ModusToolbox 3.x single core application
+0: ToolsDir is '/Applications/ModusToolbox/tools_3.1'
+mtbgetlibs: completed in 2332 milliseconds
+Tools Directory: /Applications/ModusToolbox/tools_3.1
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+Initializing build: mtb-example-xmc-empty-app Debug APP_KIT_XMC14_BOOT_001 GCC_ARM
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Tools Directory: /Applications/ModusToolbox/tools_3.1
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Building 55 file(s)
+    Compiling app file cycfg.c
+    Compiling app file cycfg_pins.c
+Upload script finished successfully
+
+mkdir: BlocklyInfineon: File exists
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+Execution of PAC script at "http%3A%2F%2Fwpad%2Fwpad.dat" failed: The operation couldn’t be completed. (NSURLErrorDomain error -1002.)
+fatal: Unable to create '/Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+mkdir: MyXMCapp/bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource: File exists
+mtbgetlibs: ERROR:there was an error retreiving the asset 'https://github.com/Infineon/device-db' commit 'release-v4.11.0' - fatal: Unable to create '/Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0/.git/index.lock': File exists.
+mtbgetlibs: ERROR:Another git process seems to be running in this repository, e.g.
+mtbgetlibs: ERROR:an editor opened by 'git commit'. Please make sure all processes
+mtbgetlibs: ERROR:are terminated then try again. If it still fails, a git process
+mtbgetlibs: ERROR:may have crashed in this repository earlier:
+mtbgetlibs: ERROR:remove the file manually to continue.
+mtbgetlibs: ERROR:command '/Applications/ModusToolbox/tools_3.1/modus-shell/bin/bash -c git -C /Users/lkaucic/.modustoolbox/global/device-db/release-v4.11.0 -c advice.detachedHead=false checkout --quiet release-v4.11.0 --force'
+mtbgetlibs: ERROR:  directory ''
+mtbgetlibs: ERROR:  child process exited with error code 128
+make: *** [getlibs] Error 1
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:3:28: error: 'ioss_0_port_0_pin_0_MODE' undeclared here (not in a function); did you mean 'ioss_0_port_14_pin_0_MODE'?
+    3 |   .mode = (XMC_GPIO_MODE_t)ioss_0_port_0_pin_0_MODE,};
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                            ioss_0_port_14_pin_0_MODE
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:6:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+    6 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:6:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+    6 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:7:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+    7 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:8:2: error: stray '#' in program
+    8 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:8:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+    8 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:12:6: error: redefinition of 'init_cycfg_pins'
+   12 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:13:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   13 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:13:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   13 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:14:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   14 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:15:2: error: stray '#' in program
+   15 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:15:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   15 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:19:6: error: redefinition of 'init_cycfg_pins'
+   19 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:20:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   20 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:20:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   20 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:21:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   21 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:22:2: error: stray '#' in program
+   22 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:22:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   22 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:26:6: error: redefinition of 'init_cycfg_pins'
+   26 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:27:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   27 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:27:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   27 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:28:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   28 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:29:2: error: stray '#' in program
+   29 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:29:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   29 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:33:6: error: redefinition of 'init_cycfg_pins'
+   33 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:34:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   34 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:34:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   34 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:35:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   35 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:36:2: error: stray '#' in program
+   36 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:36:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   36 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:40:6: error: redefinition of 'init_cycfg_pins'
+   40 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:41:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   41 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:41:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   41 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:42:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   42 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:43:2: error: stray '#' in program
+   43 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:43:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   43 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:47:6: error: redefinition of 'init_cycfg_pins'
+   47 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:48:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   48 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:48:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   48 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:49:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   49 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:50:2: error: stray '#' in program
+   50 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:50:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   50 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:54:6: error: redefinition of 'init_cycfg_pins'
+   54 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:55:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   55 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:55:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   55 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:56:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   56 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:57:2: error: stray '#' in program
+   57 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:57:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   57 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:61:28: error: 'ioss_0_port_0_pin_1_MODE' undeclared here (not in a function); did you mean 'ioss_0_port_14_pin_0_MODE'?
+   61 |   .mode = (XMC_GPIO_MODE_t)ioss_0_port_0_pin_1_MODE,};
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                            ioss_0_port_14_pin_0_MODE
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:63:6: error: redefinition of 'init_cycfg_pins'
+   63 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:64:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   64 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:64:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   64 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:65:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   65 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:66:17: error: 'ioss_0_port_0_pin_1_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   66 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:66:43: error: 'ioss_0_port_0_pin_1_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   66 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:68:2: error: stray '#' in program
+   68 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:68:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   68 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:71:27: error: redefinition of 'ioss_0_port_0_pin_1_config'
+   71 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:60:27: note: previous definition of 'ioss_0_port_0_pin_1_config' with type 'XMC_GPIO_CONFIG_t' {aka 'const struct XMC_GPIO_CONFIG'}
+   60 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:74:6: error: redefinition of 'init_cycfg_pins'
+   74 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:75:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   75 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:75:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   75 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:76:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   76 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:77:17: error: 'ioss_0_port_0_pin_1_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   77 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:77:43: error: 'ioss_0_port_0_pin_1_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   77 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:79:2: error: stray '#' in program
+   79 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:79:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   79 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:82:27: error: redefinition of 'ioss_0_port_0_pin_1_config'
+   82 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:60:27: note: previous definition of 'ioss_0_port_0_pin_1_config' with type 'XMC_GPIO_CONFIG_t' {aka 'const struct XMC_GPIO_CONFIG'}
+   60 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:85:6: error: redefinition of 'init_cycfg_pins'
+   85 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:86:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   86 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:86:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   86 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:87:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   87 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:88:17: error: 'ioss_0_port_0_pin_1_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   88 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:88:43: error: 'ioss_0_port_0_pin_1_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   88 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:90:2: error: stray '#' in program
+   90 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:90:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+   90 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:93:27: error: redefinition of 'ioss_0_port_0_pin_1_config'
+   93 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:60:27: note: previous definition of 'ioss_0_port_0_pin_1_config' with type 'XMC_GPIO_CONFIG_t' {aka 'const struct XMC_GPIO_CONFIG'}
+   60 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:96:6: error: redefinition of 'init_cycfg_pins'
+   96 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:97:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   97 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:97:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   97 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:98:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+   98 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:99:17: error: 'ioss_0_port_0_pin_1_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+   99 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:99:43: error: 'ioss_0_port_0_pin_1_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+   99 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:101:2: error: stray '#' in program
+  101 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:101:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+  101 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:104:27: error: redefinition of 'ioss_0_port_0_pin_1_config'
+  104 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:60:27: note: previous definition of 'ioss_0_port_0_pin_1_config' with type 'XMC_GPIO_CONFIG_t' {aka 'const struct XMC_GPIO_CONFIG'}
+   60 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:107:6: error: redefinition of 'init_cycfg_pins'
+  107 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:108:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+  108 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:108:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+  108 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:109:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+  109 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:110:17: error: 'ioss_0_port_0_pin_1_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+  110 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:110:43: error: 'ioss_0_port_0_pin_1_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+  110 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: At top level:
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:112:2: error: stray '#' in program
+  112 | }#include "cycfg_pins.h"
+      |  ^
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:112:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before string constant
+  112 | }#include "cycfg_pins.h"
+      |           ^~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:115:27: error: redefinition of 'ioss_0_port_0_pin_1_config'
+  115 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:60:27: note: previous definition of 'ioss_0_port_0_pin_1_config' with type 'XMC_GPIO_CONFIG_t' {aka 'const struct XMC_GPIO_CONFIG'}
+   60 |   const XMC_GPIO_CONFIG_t ioss_0_port_0_pin_1_config ={
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:118:6: error: redefinition of 'init_cycfg_pins'
+  118 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:5:6: note: previous definition of 'init_cycfg_pins' with type 'void(void)'
+    5 | void init_cycfg_pins(void){
+      |      ^~~~~~~~~~~~~~~
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c: In function 'init_cycfg_pins':
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:119:17: error: 'ioss_0_port_0_pin_0_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+  119 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:119:43: error: 'ioss_0_port_0_pin_0_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+  119 |   XMC_GPIO_Init(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, &ioss_0_port_0_pin_0_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:120:82: error: 'ioss_0_port_0_pin_0_HWO' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_HWO'?
+  120 |   XMC_GPIO_SetHardwareControl(ioss_0_port_0_pin_0_PORT, ioss_0_port_0_pin_0_PIN, ioss_0_port_0_pin_0_HWO);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  ioss_0_port_14_pin_0_HWO
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:121:17: error: 'ioss_0_port_0_pin_1_PORT' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PORT'?
+  121 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ioss_0_port_14_pin_0_PORT
+bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.c:121:43: error: 'ioss_0_port_0_pin_1_PIN' undeclared (first use in this function); did you mean 'ioss_0_port_14_pin_0_PIN'?
+  121 |   XMC_GPIO_Init(ioss_0_port_0_pin_1_PORT, ioss_0_port_0_pin_1_PIN, &ioss_0_port_0_pin_1_config);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                           ioss_0_port_14_pin_0_PIN
+make[1]: *** [/Users/lkaucic/Desktop/BlocklyInfineon/MyXMCapp/build/APP_KIT_XMC14_BOOT_001/Debug/bsps/TARGET_APP_KIT_XMC14_BOOT_001/config/GeneratedSource/cycfg_pins.o] Error 1
+make: *** [secondstage_build] Error 2
+127.0.0.1 - - [21/Feb/2024 07:47:15] "POST /runPythonScript HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:18] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:47] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:48] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:47:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:49:56] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:49:57] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:50:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2024 07:50:09] "POST /deviceCheck HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 338-235-148
+127.0.0.1 - - [29/Mar/2024 09:14:09] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2024 09:14:10] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2024 09:14:30] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2024 09:14:30] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2024 09:14:34] "POST /deviceCheck HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 469-927-026
+127.0.0.1 - - [03/Aug/2024 17:15:12] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2024 17:15:13] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:25:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:25:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:25:55] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:25:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:25:58] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:26:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:26:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:26:16] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:26:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:27:20] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:27:20] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:28:41] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:28:41] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:31:07] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:31:08] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:36:47] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:36:47] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:37:15] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:37:16] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:37:50] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:37:50] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:45:01] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:45:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:45:40] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:45:40] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:46:26] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:46:27] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:46:28] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:48:28] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2024 19:48:29] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2024 12:51:18] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2024 12:51:19] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2024 12:52:54] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2024 12:52:55] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2024 12:55:02] "OPTIONS /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [08/Aug/2024 12:55:02] "POST /deviceCheck HTTP/1.1" 200 -
+127.0.0.1 - - [09/Aug/2024 12:47:48] "GET /runPythonScript HTTP/1.1" 405 -
+127.0.0.1 - - [09/Aug/2024 12:47:49] "GET /favicon.ico HTTP/1.1" 404 -

@@ -1069,45 +1069,53 @@ Blockly.Blocks['pins47'] = {
 Blockly.Blocks['pins14'] = {
   init: function() {
     var thisBlock = this;
-    var optionsForName = [["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"], ["8", "8"],["9", "9"], ["10", "10"], ["11", "11"],["12", "12"], ["13", "13"], ["14", "14"], ["15", "15"]];
-    var dropdownName = new Blockly.FieldDropdown(optionsForName, function(option) {
-      // Handle change of the second dropdown here if needed
-    });
+    var optionsForName = [["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"], ["8", "8"], ["9", "9"], ["10", "10"], ["11", "11"], ["12", "12"], ["13", "13"], ["14", "14"], ["15", "15"]];
+    var dropdownName = new Blockly.FieldDropdown(optionsForName);
 
     var input = this.appendValueInput("TYPE")
-    .appendField("Add ")
-    .appendField(new Blockly.FieldDropdown([[  "input",  "INPUT"],[  "input/output",  "OUTPUT"],[  "hardware controlled",  " OUTPUT"]]), "DIR")
-    .appendField("on Port: ")
-    .appendField(new Blockly.FieldDropdown([["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"]]), "NAME1")
-    .appendField("Pin: ")
-    .appendField(dropdownName, "NAME");
-      
+      .appendField("Add ")
+      .appendField(new Blockly.FieldDropdown([["input", "INPUT"], ["input/output", "OUTPUT"], ["hardware controlled", "OUTPUT"]]), "DIR")
+      .appendField("on Port: ")
+      .appendField(new Blockly.FieldDropdown([["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"]], function(option) {
+        thisBlock.updatePins(option);
+      }), "NAME1")
+      .appendField("Pin: ")
+      .appendField(dropdownName, "NAME");
 
-    thisBlock.setOnChange(function(event = Blockly.Events.BlockChange) {
-      if (event.name === 'NAME1') {
-        var newValue = event.newValue;
-        if (newValue === "0") {
-          optionsForName = [["0", "0"], ["1", "1"], ["2", "2"],["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"], ["8 - CYBSP_RTC_XTAL1", "CYBSP_RTC_XTAL1"],["9 - CYBSP_RTC_XTAL2", "CYBSP_RTC_XTAL2"], ["10 - CYBSP_XTAL1", "CYBSP_XTAL1"], ["11 - CYBSP_XTAL2", "CYBSP_XTAL2"],["12", "12"], ["13", "13"], ["14 - CYBSP_SWDIO", "CYBSP_SWDIO"], ["15 - CYBSP_SWDCK", "CYBSP_SWDCK"]];
-        } else if(newValue === "1") {
-          optionsForName = [["0","0"],["1","1"],["2 - CYBSP_DEBUG_UART_TX","CYBSP_DEBUG_UART_TX"],["3 - CYBSP_DEBUG_UART_RX","CYBSP_DEBUG_UART_RX"],["4","4"],["5","5"],["6","6"], [   "7",   "7" ], [   "8",   "8" ]];
-        } else if(newValue === "2") {
-          optionsForName = [[  "0",  "0"],[  "1",  "1"],[  "2",  "2"],[  "3",  "3"],[  "4",  "4"],[  "5 - CYBSP_POT",  "CYBSP_POT"],[  "6",  "6"],[  "7",  "7"],[  "8",  "8"],[  "9",  "9"],[  "10",  "10"],[  "11",  "11"],[  "12",  "12"],[  "13",  "13"]];
-        } else if(newValue === "3"){
-          optionsForName = [[  "0",  "0"],[  "1 ",  "1"],[  "2",  "2"],[  "3 ",  "3"],[  "4",  "4"]];
-        } else optionsForName = [[  "0 - CYBSP_USER_LED, CYBSP_USER_LED1",  "CYBSP_USER_LED, CYBSP_USER_LED1"],[  "1 - CYBSP_USER_LED2",  "CYBSP_USER_LED2"],[  "2 - CYBSP_USER_LED3",  "CYBSP_USER_LED3"],[  "3 - CYBSP_USER_LED4",  "CYBSP_USER_LED4"],[  "4",  "4"],[  "5",  "5"],[  "6",  "6"],[  "7",  "7"],[  "8",  "8"],[  "9",  "9"],[  "10",  "10"],[  "11",  "11"]];
-
-        dropdownName.setValue("default");
-        dropdownName.dispose();
-        dropdownName = new Blockly.FieldDropdown(optionsForName);
-        input.removeField("NAME");
-        input.appendField(dropdownName, "NAME");
-      }
-    });
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(300);
     this.setTooltip("config");
     this.setHelpUrl("");
+
+    this.updatePins = function(port) {
+      var optionsForName;
+      switch (port) {
+        case "0":
+          optionsForName = [["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"], ["8 - CYBSP_RTC_XTAL1", "CYBSP_RTC_XTAL1"], ["9 - CYBSP_RTC_XTAL2", "CYBSP_RTC_XTAL2"], ["10 - CYBSP_XTAL1", "CYBSP_XTAL1"], ["11 - CYBSP_XTAL2", "CYBSP_XTAL2"], ["12", "12"], ["13", "13"], ["14 - CYBSP_SWDIO", "CYBSP_SWDIO"], ["15 - CYBSP_SWDCK", "CYBSP_SWDCK"]];
+          break;
+        case "1":
+          optionsForName = [["0", "0"], ["1", "1"], ["2 - CYBSP_DEBUG_UART_TX", "CYBSP_DEBUG_UART_TX"], ["3 - CYBSP_DEBUG_UART_RX", "CYBSP_DEBUG_UART_RX"], ["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"], ["8", "8"]];
+          break;
+        case "2":
+          optionsForName = [["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"], ["5 - CYBSP_POT", "CYBSP_POT"], ["6", "6"], ["7", "7"], ["8", "8"], ["9", "9"], ["10", "10"], ["11", "11"], ["12", "12"], ["13", "13"]];
+          break;
+        case "3":
+          optionsForName = [["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"]];
+          break;
+        default:
+          optionsForName = [["0 - CYBSP_USER_LED, CYBSP_USER_LED1", "CYBSP_USER_LED, CYBSP_USER_LED1"], ["1 - CYBSP_USER_LED2", "CYBSP_USER_LED2"], ["2 - CYBSP_USER_LED3", "CYBSP_USER_LED3"], ["3 - CYBSP_USER_LED4", "CYBSP_USER_LED4"], ["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"], ["8", "8"], ["9", "9"], ["10", "10"], ["11", "11"]];
+          break;
+      }
+      dropdownName.menuGenerator_ = optionsForName;
+      dropdownName.setValue(optionsForName[0][1]); // Set to first option in the new list
+    };
+
+    this.setOnChange(function(event) {
+      if (event.type === Blockly.Events.BLOCK_CHANGE && event.blockId === this.id && event.name === 'NAME1') {
+        this.updatePins(event.newValue);
+      }
+    });
   },
 };
 

@@ -251,7 +251,6 @@ clangGenerator.forBlock['text'] = function(block, generator){
 
 clangGenerator.forBlock['variables_sett'] = function(block, generator) {
   var dropdown_type = block.getFieldValue('TYPE');
- // var text_var_name = generator.nameDB_.getVariableName(block.getFieldValue('VAR'));
   var text_var_name = generator.nameDB_.getNameForUserVariable(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
   var value_variable_type = generator.valueToCode(block, 'VARIABLE_TYPE', Order.ASSIGNMENT);
   var code = dropdown_type + ' ' + text_var_name + ' = ' + value_variable_type + ';' + '\n';
@@ -571,7 +570,7 @@ clangGenerator.forBlock['toggle_led'] = function(block, generator) {
 
 clangGenerator.workspaceToCode = function(workspace = Blockly.Workspace){
   if (!workspace) {
-    // Backwards compatibility from before there could be multiple workspaces.
+    // podrška za blockly aplikaciju s više radnih površina
     console.warn(
       'No workspace specified in workspaceToCode call.  Guessing.',
     );

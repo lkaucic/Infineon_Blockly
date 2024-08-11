@@ -1,6 +1,10 @@
 {
   "SPUSBDataType" : [
     {
+      "_name" : "USB31Bus",
+      "host_controller" : "AppleT8112USBXHCI"
+    },
+    {
       "_items" : [
         {
           "_name" : "iPhone",
@@ -17,10 +21,6 @@
           "vendor_id" : "apple_vendor_id"
         }
       ],
-      "_name" : "USB31Bus",
-      "host_controller" : "AppleT8112USBXHCI"
-    },
-    {
       "_name" : "USB31Bus",
       "host_controller" : "AppleT8112USBXHCI"
     },

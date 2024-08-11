@@ -172,7 +172,29 @@ export const toolbox_xmc_47 = {
             'type': 'text'
           },
         ]
-      }
+      },
+      {
+        "kind": "category",
+        "name": "I2C",
+        "colour": "120",
+        "contents":[
+          {
+            'kind': 'block',
+            'type': 'text'
+          },
+        ]
+      },
+      {
+        "kind": "category",
+        "name": "SPI",
+        "colour": "360",
+        "contents":[
+          {
+            'kind': 'block',
+            'type': 'text'
+          },
+        ]
+      },
     ]
   }
   
